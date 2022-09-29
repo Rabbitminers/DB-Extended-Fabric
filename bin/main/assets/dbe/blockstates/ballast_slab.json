@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dbe:block/ballast_slab"
+    },
+    "type=top": {
+      "model": "dbe:block/ballast_slab_top"
+    },
+    "type=double": {
+      "model": "dbe:block/ballast_slab_full"
+    }
+  }
+}

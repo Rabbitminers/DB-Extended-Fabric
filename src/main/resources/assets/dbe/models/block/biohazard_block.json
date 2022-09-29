@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/biohazard_block",
+    "up": "dbe:blocks/biohazard_block",
+    "north": "dbe:blocks/biohazard_block",
+    "east": "dbe:blocks/biohazard_block",
+    "south": "dbe:blocks/biohazard_block",
+    "west": "dbe:blocks/biohazard_block",
+    "particle": "dbe:blocks/biohazard_block"
+  }
+}

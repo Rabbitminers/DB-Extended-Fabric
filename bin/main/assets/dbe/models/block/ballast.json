@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/ballast",
+    "up": "dbe:blocks/ballast",
+    "north": "dbe:blocks/ballast",
+    "east": "dbe:blocks/ballast",
+    "south": "dbe:blocks/ballast",
+    "west": "dbe:blocks/ballast",
+    "particle": "dbe:blocks/ballast"
+  }
+}

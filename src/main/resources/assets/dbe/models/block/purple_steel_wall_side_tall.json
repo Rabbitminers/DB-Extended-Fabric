@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_side_tall",
+  "textures": {
+    "wall": "dbe:blocks/purple_steel",
+    "particle": "dbe:blocks/purple_steel"
+  }
+}

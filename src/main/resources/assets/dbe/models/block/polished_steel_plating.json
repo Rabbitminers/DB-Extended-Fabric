@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/polished_steel_plating",
+    "up": "dbe:blocks/polished_steel_plating",
+    "north": "dbe:blocks/polished_steel_plating",
+    "east": "dbe:blocks/polished_steel_plating",
+    "south": "dbe:blocks/polished_steel_plating",
+    "west": "dbe:blocks/polished_steel_plating",
+    "particle": "dbe:blocks/polished_steel_plating"
+  }
+}

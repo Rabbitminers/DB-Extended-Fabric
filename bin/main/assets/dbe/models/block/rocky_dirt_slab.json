@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "dbe:blocks/rocky_dirt",
+    "top": "dbe:blocks/rocky_dirt",
+    "side": "dbe:blocks/rocky_dirt"
+  }
+}

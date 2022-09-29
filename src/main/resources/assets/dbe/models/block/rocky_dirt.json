@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/rocky_dirt",
+    "up": "dbe:blocks/rocky_dirt",
+    "north": "dbe:blocks/rocky_dirt",
+    "east": "dbe:blocks/rocky_dirt",
+    "south": "dbe:blocks/rocky_dirt",
+    "west": "dbe:blocks/rocky_dirt",
+    "particle": "dbe:blocks/rocky_dirt"
+  }
+}

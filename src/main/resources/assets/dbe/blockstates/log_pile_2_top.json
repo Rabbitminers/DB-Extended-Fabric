@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dbe:block/log_pile_2_top"
+    },
+    "facing=east": {
+      "model": "dbe:block/log_pile_2_top",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "dbe:block/log_pile_2_top",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dbe:block/log_pile_2_top",
+      "y": 270
+    }
+  }
+}

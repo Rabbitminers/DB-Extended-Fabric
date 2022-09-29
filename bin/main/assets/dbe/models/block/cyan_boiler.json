@@ -1,0 +1,8 @@
+{
+  "parent": "dbe:custom/boiler",
+  "textures": {
+    "all": "dbe:blocks/cyan_boiler",
+    "particle": "dbe:blocks/cyan_steel_tank",
+    "cover": "dbe:blocks/cyan_boiler"
+  }
+}

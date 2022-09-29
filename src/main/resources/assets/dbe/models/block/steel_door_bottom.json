@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom",
+  "textures": {
+    "bottom": "dbe:blocks/steel_seemless",
+    "top": "dbe:blocks/steel_doortop"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "dbe:blocks/lime_steel",
+    "top": "dbe:blocks/lime_steel",
+    "side": "dbe:blocks/lime_steel"
+  }
+}

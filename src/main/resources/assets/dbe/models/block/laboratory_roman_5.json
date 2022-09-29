@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/romannumerals5",
+    "up": "dbe:blocks/romannumerals5",
+    "north": "dbe:blocks/romannumerals5",
+    "east": "dbe:blocks/romannumerals5",
+    "south": "dbe:blocks/romannumerals5",
+    "west": "dbe:blocks/romannumerals5",
+    "particle": "dbe:blocks/romannumerals5"
+  }
+}

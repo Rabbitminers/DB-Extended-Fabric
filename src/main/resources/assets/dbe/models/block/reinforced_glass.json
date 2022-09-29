@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/hardenedglass",
+    "up": "dbe:blocks/hardenedglass",
+    "north": "dbe:blocks/hardenedglass",
+    "east": "dbe:blocks/hardenedglass",
+    "south": "dbe:blocks/hardenedglass",
+    "west": "dbe:blocks/hardenedglass",
+    "particle": "dbe:blocks/hardenedglass"
+  }
+}

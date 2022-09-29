@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/alarm_block",
+    "up": "dbe:blocks/alarm_block",
+    "north": "dbe:blocks/alarm_block",
+    "east": "dbe:blocks/alarm_block",
+    "south": "dbe:blocks/alarm_block",
+    "west": "dbe:blocks/alarm_block",
+    "particle": "dbe:blocks/alarm_block"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dbe:block/gravel_slab"
+    },
+    "type=top": {
+      "model": "dbe:block/gravel_slab_top"
+    },
+    "type=double": {
+      "model": "dbe:block/gravel_slab_full"
+    }
+  }
+}

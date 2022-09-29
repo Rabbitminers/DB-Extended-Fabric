@@ -1,0 +1,10 @@
+{
+  "parent": "dbe:custom/rubberduck",
+  "textures": {
+    "all": "dbe:blocks/orange_concrete",
+    "particle": "dbe:blocks/orange_concrete",
+    "0": "dbe:blocks/yellow_terracotta",
+    "1": "dbe:blocks/vantablack",
+    "2": "dbe:blocks/orange_concrete"
+  }
+}

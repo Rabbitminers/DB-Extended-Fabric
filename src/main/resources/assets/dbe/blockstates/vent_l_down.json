@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dbe:block/vent_l_down"
+    },
+    "facing=east": {
+      "model": "dbe:block/vent_l_down",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "dbe:block/vent_l_down",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dbe:block/vent_l_down",
+      "y": 270
+    }
+  }
+}

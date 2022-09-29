@@ -1,0 +1,8 @@
+{
+  "parent": "dbe:custom/trainsign",
+  "textures": {
+    "all": "dbe:blocks/alarm_sign",
+    "particle": "dbe:blocks/alarm_sign",
+    "0": "dbe:blocks/alarm_sign"
+  }
+}

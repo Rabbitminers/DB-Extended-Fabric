@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/soundblock_top",
+    "up": "dbe:blocks/soundblock_top",
+    "north": "dbe:blocks/soundblock_side",
+    "east": "dbe:blocks/soundblock_top",
+    "south": "dbe:blocks/soundblock_top",
+    "west": "dbe:blocks/soundblock_top",
+    "particle": "dbe:blocks/soundblock_top"
+  }
+}

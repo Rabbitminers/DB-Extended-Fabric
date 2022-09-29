@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "dbe:blocks/red_steel",
+    "top": "dbe:blocks/red_steel",
+    "side": "dbe:blocks/red_steel"
+  }
+}

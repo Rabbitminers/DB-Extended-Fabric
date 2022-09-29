@@ -1,0 +1,167 @@
+{
+  "nuclear_siren": {
+    "category": "neutral",
+    "subtitle": "subtitles.nuclear_siren",
+    "sounds": [
+      {
+        "name": "dbe:chernobyl",
+        "stream": false
+      }
+    ]
+  },
+  "vocals_emtpy": {
+    "category": "neutral",
+    "subtitle": "subtitles.vocals_emtpy",
+    "sounds": [
+      {
+        "name": "dbe:emtpy_vocals",
+        "stream": false
+      }
+    ]
+  },
+  "vocals_warning": {
+    "category": "neutral",
+    "subtitle": "subtitles.vocals_warning",
+    "sounds": [
+      {
+        "name": "dbe:vocals_warning",
+        "stream": false
+      }
+    ]
+  },
+  "vocals_attention": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dbe:vocals_attention",
+        "stream": false
+      }
+    ]
+  },
+  "vocals_closehatch": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dbe:vocals_closehatch",
+        "stream": false
+      }
+    ]
+  },
+  "vocals_openhatch": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dbe:vocals_openhatch",
+        "stream": false
+      }
+    ]
+  },
+  "vocals_bootup": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dbe:vocals_bootup",
+        "stream": false
+      }
+    ]
+  },
+  "vocals_standby": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dbe:vocals_standby",
+        "stream": false
+      }
+    ]
+  },
+  "vocals_experiment": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dbe:vocals_experiment",
+        "stream": false
+      }
+    ]
+  },
+  "vocals_facilityleave": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dbe:vocals_facilityleave",
+        "stream": false
+      }
+    ]
+  },
+  "vocals_reactormeltdown": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dbe:vocals_reactormeltdown",
+        "stream": false
+      }
+    ]
+  },
+  "vocals_airlock": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dbe:vocals_airlock",
+        "stream": false
+      }
+    ]
+  },
+  "vocals_systemfail": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dbe:vocals_systemfail",
+        "stream": false
+      }
+    ]
+  },
+  "vocals_calculating": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dbe:vocals_calculating",
+        "stream": false
+      }
+    ]
+  },
+  "vocal_systemintegrity": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dbe:vocals_systemintegrity",
+        "stream": false
+      }
+    ]
+  },
+  "vocals_selfdestruct": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dbe:vocals_selfdestruct",
+        "stream": false
+      }
+    ]
+  },
+  "vocals_containmentfail": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dbe:vocals_containmentfail",
+        "stream": false
+      }
+    ]
+  },
+  "vocal_lifesupport": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "dbe:vocals_lifesupport",
+        "stream": false
+      }
+    ]
+  }
+}

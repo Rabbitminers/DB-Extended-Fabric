@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/radiation_block",
+    "up": "dbe:blocks/radiation_block",
+    "north": "dbe:blocks/radiation_block",
+    "east": "dbe:blocks/radiation_block",
+    "south": "dbe:blocks/radiation_block",
+    "west": "dbe:blocks/radiation_block",
+    "particle": "dbe:blocks/radiation_block"
+  }
+}

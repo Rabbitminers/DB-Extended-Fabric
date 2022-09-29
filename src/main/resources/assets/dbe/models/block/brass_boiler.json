@@ -1,0 +1,8 @@
+{
+  "parent": "dbe:custom/boiler",
+  "textures": {
+    "all": "dbe:blocks/brass_boiler",
+    "particle": "dbe:blocks/brasstank",
+    "cover": "dbe:blocks/brass_boiler"
+  }
+}

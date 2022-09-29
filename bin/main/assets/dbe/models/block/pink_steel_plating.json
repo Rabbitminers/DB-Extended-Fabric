@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/pink_steel",
+    "up": "dbe:blocks/pink_steel",
+    "north": "dbe:blocks/pink_steel",
+    "east": "dbe:blocks/pink_steel",
+    "south": "dbe:blocks/pink_steel",
+    "west": "dbe:blocks/pink_steel",
+    "particle": "dbe:blocks/pink_steel"
+  }
+}

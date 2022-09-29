@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/tungsten_carbite",
+    "up": "dbe:blocks/tungsten_carbite",
+    "north": "dbe:blocks/tungsten_carbite",
+    "east": "dbe:blocks/tungsten_carbite",
+    "south": "dbe:blocks/tungsten_carbite",
+    "west": "dbe:blocks/tungsten_carbite",
+    "particle": "dbe:blocks/tungsten_carbite"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/halflumber_border",
+    "up": "dbe:blocks/halflumber_border",
+    "north": "dbe:blocks/halflumber_border",
+    "east": "dbe:blocks/halflumber_border",
+    "south": "dbe:blocks/halflumber_border",
+    "west": "dbe:blocks/halflumber_border",
+    "particle": "dbe:blocks/halflumber_border"
+  }
+}

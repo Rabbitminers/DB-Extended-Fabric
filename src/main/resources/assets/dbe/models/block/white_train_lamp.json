@@ -1,0 +1,10 @@
+{
+  "parent": "dbe:custom/trainlamp",
+  "textures": {
+    "all": "dbe:blocks/black_steel",
+    "particle": "dbe:blocks/black_steel",
+    "0": "dbe:blocks/torch",
+    "1": "dbe:blocks/white_steel",
+    "2": "dbe:blocks/white_concrete"
+  }
+}

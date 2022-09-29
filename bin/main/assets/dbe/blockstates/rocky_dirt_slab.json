@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dbe:block/rocky_dirt_slab"
+    },
+    "type=top": {
+      "model": "dbe:block/rocky_dirt_slab_top"
+    },
+    "type=double": {
+      "model": "dbe:block/rocky_dirt_slab_full"
+    }
+  }
+}

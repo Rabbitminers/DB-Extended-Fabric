@@ -1,0 +1,8 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "dbe:blocks/brown_steel",
+    "top": "dbe:blocks/brown_steel",
+    "side": "dbe:blocks/brown_steel"
+  }
+}

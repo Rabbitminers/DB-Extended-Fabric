@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "dbe:blocks/blue_steel",
+    "top": "dbe:blocks/blue_steel",
+    "side": "dbe:blocks/blue_steel"
+  }
+}

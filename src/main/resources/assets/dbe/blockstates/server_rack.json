@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dbe:block/server_rack"
+    },
+    "facing=east": {
+      "model": "dbe:block/server_rack",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "dbe:block/server_rack",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dbe:block/server_rack",
+      "y": 270
+    }
+  }
+}

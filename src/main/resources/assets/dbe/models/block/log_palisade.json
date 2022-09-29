@@ -1,0 +1,9 @@
+{
+  "parent": "dbe:custom/woodenpalisade",
+  "textures": {
+    "all": "dbe:blocks/logpile_side",
+    "particle": "dbe:blocks/logpile_side",
+    "0": "dbe:blocks/logpile_top",
+    "1": "dbe:blocks/logpile_side"
+  }
+}

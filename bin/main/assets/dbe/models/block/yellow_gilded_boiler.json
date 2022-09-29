@@ -1,0 +1,8 @@
+{
+  "parent": "dbe:custom/boiler",
+  "textures": {
+    "all": "dbe:blocks/yellow_boiler",
+    "particle": "dbe:blocks/gilded_yellow_steel_tank",
+    "cover": "dbe:blocks/yellow_boiler"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "dbe:custom/boiler",
+  "textures": {
+    "all": "dbe:blocks/purple_boiler",
+    "particle": "dbe:blocks/purple_steel_tank",
+    "cover": "dbe:blocks/purple_boiler"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/bluescreen",
+    "up": "dbe:blocks/bluescreen",
+    "north": "dbe:blocks/bluescreen",
+    "east": "dbe:blocks/bluescreen",
+    "south": "dbe:blocks/bluescreen",
+    "west": "dbe:blocks/bluescreen",
+    "particle": "dbe:blocks/bluescreen"
+  }
+}

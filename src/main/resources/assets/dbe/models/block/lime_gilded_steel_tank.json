@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/lime_steel_tank_top",
+    "up": "dbe:blocks/lime_steel_tank_top",
+    "north": "dbe:blocks/gilded_lime_steel_tank",
+    "east": "dbe:blocks/gilded_lime_steel_tank",
+    "south": "dbe:blocks/gilded_lime_steel_tank",
+    "west": "dbe:blocks/gilded_lime_steel_tank",
+    "particle": "dbe:blocks/lime_steel_tank_top"
+  }
+}

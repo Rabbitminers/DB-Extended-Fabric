@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "dbe:blocks/steel_seemless",
+    "particle": "dbe:blocks/steel_seemless"
+  }
+}

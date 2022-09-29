@@ -1,0 +1,9 @@
+{
+  "parent": "dbe:custom/woolchair",
+  "textures": {
+    "all": "dbe:blocks/white_quilted_wool",
+    "particle": "dbe:blocks/white_quilted_wool",
+    "0": "dbe:blocks/stripped_oak_log",
+    "1": "dbe:blocks/white_quilted_wool"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "dbe:blocks/gray_steel",
+    "particle": "dbe:blocks/gray_steel"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dbe:block/isolinear_front_green"
+    },
+    "facing=east": {
+      "model": "dbe:block/isolinear_front_green",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "dbe:block/isolinear_front_green",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dbe:block/isolinear_front_green",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "dbe:block/isolinear_front_green",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "dbe:block/isolinear_front_green",
+      "x": 90
+    }
+  }
+}

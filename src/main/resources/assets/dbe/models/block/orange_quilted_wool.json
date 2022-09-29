@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/orange_quilted_wool",
+    "up": "dbe:blocks/orange_quilted_wool",
+    "north": "dbe:blocks/orange_quilted_wool",
+    "east": "dbe:blocks/orange_quilted_wool",
+    "south": "dbe:blocks/orange_quilted_wool",
+    "west": "dbe:blocks/orange_quilted_wool",
+    "particle": "dbe:blocks/orange_quilted_wool"
+  }
+}

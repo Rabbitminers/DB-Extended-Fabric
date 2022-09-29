@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dbe:block/laboratory_block"
+    }
+  }
+}

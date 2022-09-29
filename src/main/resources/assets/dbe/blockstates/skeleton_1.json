@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dbe:block/skeleton_1"
+    },
+    "facing=east": {
+      "model": "dbe:block/skeleton_1",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "dbe:block/skeleton_1",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dbe:block/skeleton_1",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/red_stained_glass",
+    "up": "dbe:blocks/red_stained_glass",
+    "north": "dbe:blocks/red_stained_glass",
+    "east": "dbe:blocks/red_stained_glass",
+    "south": "dbe:blocks/red_stained_glass",
+    "west": "dbe:blocks/red_stained_glass",
+    "particle": "dbe:blocks/red_stained_glass"
+  }
+}

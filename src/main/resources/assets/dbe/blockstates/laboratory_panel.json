@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dbe:block/laboratory_panel"
+    },
+    "facing=east": {
+      "model": "dbe:block/laboratory_panel",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "dbe:block/laboratory_panel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dbe:block/laboratory_panel",
+      "y": 270
+    }
+  }
+}

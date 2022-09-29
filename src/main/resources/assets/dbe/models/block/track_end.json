@@ -1,0 +1,10 @@
+{
+  "parent": "dbe:custom/create_track_end",
+  "textures": {
+    "all": "dbe:blocks/standard_track",
+    "particle": "dbe:blocks/standard_track",
+    "1": "dbe:blocks/standard_track",
+    "2": "dbe:blocks/standard_track_mip",
+    "missing": "dbe:blocks/polished_andesite"
+  }
+}

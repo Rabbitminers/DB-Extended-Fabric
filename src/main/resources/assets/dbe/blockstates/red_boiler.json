@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "dbe:block/red_boiler",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "dbe:block/red_boiler"
+    },
+    "axis=z": {
+      "model": "dbe:block/red_boiler",
+      "x": 90
+    }
+  }
+}

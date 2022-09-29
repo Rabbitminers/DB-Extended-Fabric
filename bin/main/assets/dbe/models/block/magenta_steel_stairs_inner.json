@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "dbe:blocks/magenta_steel",
+    "top": "dbe:blocks/magenta_steel",
+    "side": "dbe:blocks/magenta_steel"
+  }
+}

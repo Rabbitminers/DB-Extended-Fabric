@@ -1,0 +1,8 @@
+{
+  "parent": "dbe:custom/boiler",
+  "textures": {
+    "all": "dbe:blocks/gray_boiler",
+    "particle": "dbe:blocks/gray_steel_tank",
+    "cover": "dbe:blocks/gray_boiler"
+  }
+}

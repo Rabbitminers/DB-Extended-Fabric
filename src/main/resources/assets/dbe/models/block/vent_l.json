@@ -1,0 +1,10 @@
+{
+  "parent": "dbe:custom/vent_lpiece",
+  "textures": {
+    "all": "dbe:blocks/steel_seemless",
+    "particle": "dbe:blocks/steel_seemless",
+    "0": "dbe:blocks/steel_plating",
+    "1": "dbe:blocks/steel_seemless",
+    "missing": "dbe:blocks/"
+  }
+}

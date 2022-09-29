@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dbe:block/light_blue_steel_slab"
+    },
+    "type=top": {
+      "model": "dbe:block/light_blue_steel_slab_top"
+    },
+    "type=double": {
+      "model": "dbe:block/light_blue_steel_slab_full"
+    }
+  }
+}

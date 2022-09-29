@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/electricity_block",
+    "up": "dbe:blocks/electricity_block",
+    "north": "dbe:blocks/electricity_block",
+    "east": "dbe:blocks/electricity_block",
+    "south": "dbe:blocks/electricity_block",
+    "west": "dbe:blocks/electricity_block",
+    "particle": "dbe:blocks/electricity_block"
+  }
+}

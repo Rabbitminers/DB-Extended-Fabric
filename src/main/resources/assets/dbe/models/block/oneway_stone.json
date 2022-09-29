@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/stone",
+    "up": "dbe:blocks/stone",
+    "north": "dbe:blocks/glass",
+    "east": "dbe:blocks/stone",
+    "south": "dbe:blocks/stone",
+    "west": "dbe:blocks/stone",
+    "particle": "dbe:blocks/stone"
+  }
+}

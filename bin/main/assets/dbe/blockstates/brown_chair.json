@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dbe:block/brown_chair"
+    },
+    "facing=east": {
+      "model": "dbe:block/brown_chair",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "dbe:block/brown_chair",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dbe:block/brown_chair",
+      "y": 270
+    }
+  }
+}

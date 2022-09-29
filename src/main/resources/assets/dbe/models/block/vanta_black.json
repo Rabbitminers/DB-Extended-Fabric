@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/vantablack",
+    "up": "dbe:blocks/vantablack",
+    "north": "dbe:blocks/vantablack",
+    "east": "dbe:blocks/vantablack",
+    "south": "dbe:blocks/vantablack",
+    "west": "dbe:blocks/vantablack",
+    "particle": "dbe:blocks/vantablack"
+  }
+}

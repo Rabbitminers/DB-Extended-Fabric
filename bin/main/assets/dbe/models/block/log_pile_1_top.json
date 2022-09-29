@@ -1,0 +1,8 @@
+{
+  "parent": "dbe:custom/4logpile1_top",
+  "textures": {
+    "all": "dbe:blocks/logpile_top",
+    "particle": "dbe:blocks/logpile_top",
+    "0": "dbe:blocks/campfire_log"
+  }
+}

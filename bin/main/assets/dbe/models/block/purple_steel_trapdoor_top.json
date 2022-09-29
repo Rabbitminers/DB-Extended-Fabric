@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "dbe:blocks/purple_steel",
+    "particle": "dbe:blocks/purple_steel"
+  }
+}

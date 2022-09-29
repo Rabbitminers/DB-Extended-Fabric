@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "dbe:blocks/black_steel",
+    "particle": "dbe:blocks/black_steel"
+  }
+}

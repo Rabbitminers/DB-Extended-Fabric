@@ -1,0 +1,8 @@
+{
+  "parent": "dbe:custom/trainsign",
+  "textures": {
+    "all": "dbe:blocks/oneway_sign",
+    "particle": "dbe:blocks/oneway_sign",
+    "0": "dbe:blocks/oneway_sign"
+  }
+}

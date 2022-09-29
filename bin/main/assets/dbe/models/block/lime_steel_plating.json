@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/lime_steel",
+    "up": "dbe:blocks/lime_steel",
+    "north": "dbe:blocks/lime_steel",
+    "east": "dbe:blocks/lime_steel",
+    "south": "dbe:blocks/lime_steel",
+    "west": "dbe:blocks/lime_steel",
+    "particle": "dbe:blocks/lime_steel"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/steel_seemless",
+    "up": "dbe:blocks/steel_seemless",
+    "north": "dbe:blocks/computer_terminal_steel",
+    "east": "dbe:blocks/steel_seemless",
+    "south": "dbe:blocks/steel_seemless",
+    "west": "dbe:blocks/steel_seemless",
+    "particle": "dbe:blocks/steel_seemless"
+  }
+}

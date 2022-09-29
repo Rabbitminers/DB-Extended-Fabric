@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/irritant_block",
+    "up": "dbe:blocks/irritant_block",
+    "north": "dbe:blocks/irritant_block",
+    "east": "dbe:blocks/irritant_block",
+    "south": "dbe:blocks/irritant_block",
+    "west": "dbe:blocks/irritant_block",
+    "particle": "dbe:blocks/irritant_block"
+  }
+}

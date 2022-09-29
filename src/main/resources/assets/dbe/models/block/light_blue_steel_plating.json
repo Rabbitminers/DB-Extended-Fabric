@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/light_blue_steel",
+    "up": "dbe:blocks/light_blue_steel",
+    "north": "dbe:blocks/light_blue_steel",
+    "east": "dbe:blocks/light_blue_steel",
+    "south": "dbe:blocks/light_blue_steel",
+    "west": "dbe:blocks/light_blue_steel",
+    "particle": "dbe:blocks/light_blue_steel"
+  }
+}

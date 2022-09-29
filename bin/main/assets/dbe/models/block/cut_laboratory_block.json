@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/cut_laboratory_block",
+    "up": "dbe:blocks/cut_laboratory_block",
+    "north": "dbe:blocks/cut_laboratory_block",
+    "east": "dbe:blocks/cut_laboratory_block",
+    "south": "dbe:blocks/cut_laboratory_block",
+    "west": "dbe:blocks/cut_laboratory_block",
+    "particle": "dbe:blocks/cut_laboratory_block"
+  }
+}

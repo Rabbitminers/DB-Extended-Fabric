@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dbe:block/laboratory_roman_5"
+    },
+    "facing=east": {
+      "model": "dbe:block/laboratory_roman_5",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "dbe:block/laboratory_roman_5",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dbe:block/laboratory_roman_5",
+      "y": 270
+    }
+  }
+}

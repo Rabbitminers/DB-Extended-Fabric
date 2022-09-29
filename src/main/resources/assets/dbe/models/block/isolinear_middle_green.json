@@ -1,0 +1,9 @@
+{
+  "parent": "dbe:custom/isolinearchip1",
+  "textures": {
+    "all": "dbe:blocks/lime_stained_glass",
+    "particle": "dbe:blocks/lime_stained_glass",
+    "0": "dbe:blocks/steel_seemless",
+    "1": "dbe:blocks/lime_stained_glass"
+  }
+}

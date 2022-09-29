@@ -1,0 +1,8 @@
+{
+  "parent": "dbe:custom/trainsign",
+  "textures": {
+    "all": "dbe:blocks/arrow_left_sign",
+    "particle": "dbe:blocks/arrow_left_sign",
+    "0": "dbe:blocks/arrow_left_sign"
+  }
+}

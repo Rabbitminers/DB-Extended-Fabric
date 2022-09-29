@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dbe:block/oneway_stone"
+    },
+    "facing=east": {
+      "model": "dbe:block/oneway_stone",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "dbe:block/oneway_stone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dbe:block/oneway_stone",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "dbe:block/oneway_stone",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "dbe:block/oneway_stone",
+      "x": 90
+    }
+  }
+}

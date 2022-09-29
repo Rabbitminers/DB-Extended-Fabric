@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/laboratoryvent",
+    "up": "dbe:blocks/laboratoryvent",
+    "north": "dbe:blocks/laboratoryvent",
+    "east": "dbe:blocks/laboratoryvent",
+    "south": "dbe:blocks/laboratoryvent",
+    "west": "dbe:blocks/laboratoryvent",
+    "particle": "dbe:blocks/laboratoryvent"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dbe:block/half_lumber_border"
+    },
+    "facing=east": {
+      "model": "dbe:block/half_lumber_border",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "dbe:block/half_lumber_border",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dbe:block/half_lumber_border",
+      "y": 270
+    }
+  }
+}

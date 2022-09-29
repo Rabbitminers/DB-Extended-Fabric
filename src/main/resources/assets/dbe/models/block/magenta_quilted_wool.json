@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/magenta_quilted_wool",
+    "up": "dbe:blocks/magenta_quilted_wool",
+    "north": "dbe:blocks/magenta_quilted_wool",
+    "east": "dbe:blocks/magenta_quilted_wool",
+    "south": "dbe:blocks/magenta_quilted_wool",
+    "west": "dbe:blocks/magenta_quilted_wool",
+    "particle": "dbe:blocks/magenta_quilted_wool"
+  }
+}

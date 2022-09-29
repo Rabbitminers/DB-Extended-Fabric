@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dbe:block/computer_terminal_steel"
+    },
+    "facing=east": {
+      "model": "dbe:block/computer_terminal_steel",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "dbe:block/computer_terminal_steel",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dbe:block/computer_terminal_steel",
+      "y": 270
+    }
+  }
+}

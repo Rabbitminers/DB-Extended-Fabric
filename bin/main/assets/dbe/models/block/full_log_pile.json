@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/logpile_top",
+    "up": "dbe:blocks/logpile_top",
+    "north": "dbe:blocks/logpile_side",
+    "east": "dbe:blocks/logpile_side",
+    "south": "dbe:blocks/logpile_side",
+    "west": "dbe:blocks/logpile_side",
+    "particle": "dbe:blocks/logpile_top"
+  }
+}

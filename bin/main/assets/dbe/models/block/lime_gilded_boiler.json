@@ -1,0 +1,8 @@
+{
+  "parent": "dbe:custom/boiler",
+  "textures": {
+    "all": "dbe:blocks/lime_boiler",
+    "particle": "dbe:blocks/gilded_lime_steel_tank",
+    "cover": "dbe:blocks/lime_boiler"
+  }
+}

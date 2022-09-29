@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/furnace_top",
+    "up": "dbe:blocks/furnace_top",
+    "north": "dbe:blocks/vocaliser_block",
+    "east": "dbe:blocks/furnace_side",
+    "south": "dbe:blocks/furnace_side",
+    "west": "dbe:blocks/furnace_side",
+    "particle": "dbe:blocks/furnace_top"
+  }
+}

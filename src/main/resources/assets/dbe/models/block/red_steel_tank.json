@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/red_tank_top",
+    "up": "dbe:blocks/red_tank_top",
+    "north": "dbe:blocks/red_tank",
+    "east": "dbe:blocks/red_tank",
+    "south": "dbe:blocks/red_tank",
+    "west": "dbe:blocks/red_tank",
+    "particle": "dbe:blocks/red_tank_top"
+  }
+}

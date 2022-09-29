@@ -1,0 +1,9 @@
+{
+  "parent": "dbe:custom/pcsetup",
+  "textures": {
+    "all": "dbe:blocks/computer_special",
+    "particle": "dbe:blocks/computer_special",
+    "0": "dbe:blocks/anvil",
+    "1": "dbe:blocks/computer_special"
+  }
+}

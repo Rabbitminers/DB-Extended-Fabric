@@ -1,0 +1,9 @@
+{
+  "parent": "dbe:custom/book1",
+  "textures": {
+    "all": "dbe:blocks/books",
+    "particle": "dbe:blocks/books",
+    "0": "dbe:blocks/books",
+    "missing": "dbe:blocks/"
+  }
+}

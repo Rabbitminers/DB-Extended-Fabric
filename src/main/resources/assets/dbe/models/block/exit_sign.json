@@ -1,0 +1,9 @@
+{
+  "parent": "dbe:custom/exitsign",
+  "textures": {
+    "all": "dbe:blocks/exithere_sign",
+    "particle": "dbe:blocks/exithere_sign",
+    "0": "dbe:blocks/exithere_sign",
+    "1": "dbe:blocks/anvil"
+  }
+}

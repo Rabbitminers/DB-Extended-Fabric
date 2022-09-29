@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/pink_steel_tank_top",
+    "up": "dbe:blocks/pink_steel_tank_top",
+    "north": "dbe:blocks/pink_steel_tank",
+    "east": "dbe:blocks/pink_steel_tank",
+    "south": "dbe:blocks/pink_steel_tank",
+    "west": "dbe:blocks/pink_steel_tank",
+    "particle": "dbe:blocks/pink_steel_tank_top"
+  }
+}

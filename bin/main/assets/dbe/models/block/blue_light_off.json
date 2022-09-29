@@ -1,0 +1,8 @@
+{
+  "parent": "dbe:custom/lamp",
+  "textures": {
+    "all": "dbe:blocks/b_lamp",
+    "particle": "dbe:blocks/b_lamp",
+    "0": "dbe:blocks/b_lamp"
+  }
+}

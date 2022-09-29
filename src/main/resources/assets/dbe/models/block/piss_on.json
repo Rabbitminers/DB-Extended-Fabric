@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/lime_stained_glass",
+    "up": "dbe:blocks/lime_stained_glass",
+    "north": "dbe:blocks/lime_stained_glass",
+    "east": "dbe:blocks/lime_stained_glass",
+    "south": "dbe:blocks/lime_stained_glass",
+    "west": "dbe:blocks/lime_stained_glass",
+    "particle": "dbe:blocks/lime_stained_glass"
+  }
+}

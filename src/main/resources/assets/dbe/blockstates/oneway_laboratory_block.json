@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "dbe:block/oneway_laboratory_block"
+    },
+    "facing=east": {
+      "model": "dbe:block/oneway_laboratory_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "dbe:block/oneway_laboratory_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "dbe:block/oneway_laboratory_block",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "dbe:block/oneway_laboratory_block",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "dbe:block/oneway_laboratory_block",
+      "x": 90
+    }
+  }
+}

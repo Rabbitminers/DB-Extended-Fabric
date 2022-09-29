@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "dbe:blocks/yellowarrowright",
+    "up": "dbe:blocks/yellowarrowright",
+    "north": "dbe:blocks/yellowarrowright",
+    "east": "dbe:blocks/yellowarrowright",
+    "south": "dbe:blocks/yellowarrowright",
+    "west": "dbe:blocks/yellowarrowright",
+    "particle": "dbe:blocks/yellowarrowright"
+  }
+}

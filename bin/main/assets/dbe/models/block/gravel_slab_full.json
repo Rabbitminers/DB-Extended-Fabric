@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "dbe:blocks/gravel",
+    "top": "dbe:blocks/gravel",
+    "side": "dbe:blocks/gravel"
+  }
+}

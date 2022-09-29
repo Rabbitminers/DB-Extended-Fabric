@@ -1,0 +1,8 @@
+{
+  "parent": "dbe:custom/skeleton2",
+  "textures": {
+    "all": "dbe:blocks/skeleton",
+    "particle": "dbe:blocks/skeleton",
+    "0": "dbe:blocks/skeleton"
+  }
+}
