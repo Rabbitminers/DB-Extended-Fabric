@@ -1,7 +1,7 @@
 package com.rabbitminers.dbe.index;
 
 import com.rabbitminers.dbe.DBE;
-import com.rabbitminers.dbe.blocks.boilers.BoilerBlock;
+import com.rabbitminers.dbe.blocks.TrackEndBlock;
 import com.rabbitminers.dbe.blocks.util.*;
 import com.rabbitminers.dbe.blocks.util.FacingBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -10,10 +10,8 @@ import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.util.BlockRotation;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import net.minecraft.util.shape.VoxelShape;
 
 public class DBEBlocks {
 
@@ -48,7 +46,6 @@ public class DBEBlocks {
 
     public static final Block SEEMLESS_STEEL = registerBlock("steel_seemless",
             new Block(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
-
     public static final Block CUT_STEEL = registerBlock("steel_tiles",
             new Block(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
 
@@ -60,6 +57,76 @@ public class DBEBlocks {
 
     public static final Block STEEL_SLAB = registerBlock("steel_slab",
             new SlabBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
+    /*
+    Striped Blocks
+     */
+    public static final Block STRIPED_BLOCK = registerBlock("stripedblock",
+            new FacingBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
+    public static final Block STRIPEDBLOCK_HORIZONTAL = registerBlock("strippedblock_horizontal",
+            new FacingBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
+    public static final Block STRIPED_BLOCK_MIDDLE = registerBlock("stripedblock_middle",
+            new FacingBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
+    public static final Block LEFT_YELLOW_ARROW = registerBlock("yellow_arrow_left",
+            new FacingBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
+    public static final Block RIGHT_YELLOW_ARROW = registerBlock("yellow_arrow_right",
+            new FacingBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
+    public static final Block ALARM_BLOCK = registerBlock("alarm_block",
+            new FacingBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
+    public static final Block RADIATION_BLOCK = registerBlock("radiation_block",
+            new FacingBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
+    public static final Block BIOHAZARD_BLOCK = registerBlock("biohazard_block",
+            new FacingBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
+    public static final Block TOXIC_BLOCK = registerBlock("death_block",
+            new FacingBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+    /*
+    Lab Blocks
+     */
+    public static final Block LABORATORY_BLOCK = registerBlock("laboratory_block",
+            new FacingBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
+    public static final Block CUT_LABORATORY_BLOCK = registerBlock("cut_laboratory_block",
+            new FacingBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
+    public static final Block LABORATORY_VENT = registerBlock("laboratory_vent",
+            new FacingBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
+    public static final Block LABORATORY_TECHNICAL_PANEL = registerBlock("laboratory_panel",
+            new FacingBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
+    public static final Block LABORATORY_STRIPE = registerBlock("laboratory_stripe",
+            new FacingBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
+    public static final Block LABORATORY_ROMAN_1 = registerBlock("laboratory_roman_1",
+            new FacingBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
+    public static final Block LABORATORY_LEFT_ARROW = registerBlock("laboratory_left_arrow",
+            new FacingBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
+    public static final Block LABORATORY_RIGHT_ARROW = registerBlock("laboratory_right_arrow",
+            new FacingBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
+    public static final Block LABORATORY_ROMAN_5 = registerBlock("laboratory_roman_5",
+            new FacingBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
+    public static final Block LABORATORY_ROMAN_10 = registerBlock("laboratory_roman_10",
+            new FacingBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
+    /*
+    Misc
+     */
+
+    public static final Block TRACK_END = registerBlock("track_end",
+            new TrackEndBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool().nonOpaque()), ItemGroup.MISC);
+
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

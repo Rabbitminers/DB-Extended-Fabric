@@ -2,6 +2,7 @@ package com.rabbitminers.dbe;
 
 import com.rabbitminers.dbe.index.DBEBlocks;
 import com.rabbitminers.dbe.index.DBEItems;
+import com.rabbitminers.dbe.index.DBEDyedBlocks;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,5 +15,6 @@ public class DBE implements ModInitializer {
 	public void onInitialize() {
 		DBEItems.registerModItems();
 		DBEBlocks.registerModBlocks();
+		DBEDyedBlocks.registerModBlocks();
 	}
 }
