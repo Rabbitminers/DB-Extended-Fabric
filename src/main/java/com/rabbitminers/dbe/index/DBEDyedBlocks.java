@@ -19,9 +19,42 @@ import java.util.List;
 public class DBEDyedBlocks {
 
     static ItemGroup group = ItemGroup.MISC;
-    public static List<Block> chairs = new ArrayList<Block>();
+    public static List<Block> excludeFromCull = new ArrayList<Block>();
     public static String[] colours = {"black", "gray", "light_gray", "white", "red", "orange", "yellow", "lime", "green", "cyan", "light_blue", "blue", "magenta", "purple", "pink", "brown"};
 
+    public static void boilerFactory() {
+        excludeFromCull.add(registerBlock("create_boiler",
+                new PillarBlock(FabricBlockSettings.of(Material.METAL)
+                        .strength(3f, 6f)
+                        .requiresTool()), group));
+
+        excludeFromCull.add(registerBlock("copper_boiler",
+                new PillarBlock(FabricBlockSettings.of(Material.METAL)
+                        .strength(3f, 6f)
+                        .requiresTool()), group));
+
+        excludeFromCull.add(registerBlock("zinc_boiler",
+                new PillarBlock(FabricBlockSettings.of(Material.METAL)
+                        .strength(3f, 6f)
+                        .requiresTool()), group));
+
+        excludeFromCull.add(registerBlock("brass_boiler",
+                new PillarBlock(FabricBlockSettings.of(Material.METAL)
+                        .strength(3f, 6f)
+                        .requiresTool()), group));
+
+        for (String colour: colours) {
+            excludeFromCull.add(registerBlock(colour+"_boiler",
+                    new PillarBlock(FabricBlockSettings.of(Material.METAL)
+                            .strength(3f, 6f)
+                            .requiresTool()), group));
+
+            excludeFromCull.add(registerBlock(colour+"_gilded_boiler",
+                    new PillarBlock(FabricBlockSettings.of(Material.METAL)
+                            .strength(3f, 6f)
+                            .requiresTool()), group));
+        }
+    }
     public static void quiltedWoolFactory() {
         for (String colour: colours) {
             registerBlock(colour+"_quilted_wool",
@@ -32,7 +65,7 @@ public class DBEDyedBlocks {
 
     public static void woolChairFactory() {
         for (String colour: colours) {
-            chairs.add(registerBlock(colour+"_chair",
+            excludeFromCull.add(registerBlock(colour+"_chair",
                     new BottomSlab(FabricBlockSettings.of(Material.WOOL)
                             .strength(0.8f, 0.8f)
                             .nonOpaque()), group));
@@ -52,5 +85,6 @@ public class DBEDyedBlocks {
 
         quiltedWoolFactory();
         woolChairFactory();
+        boilerFactory();
     }
 }

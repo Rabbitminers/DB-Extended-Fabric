@@ -11,8 +11,8 @@ import net.minecraft.client.render.RenderLayer;
 public class DBEClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-        for (Block chair: DBEDyedBlocks.chairs) {
-            BlockRenderLayerMap.INSTANCE.putBlock(chair, RenderLayer.getCutout());
+        for (Block block: DBEDyedBlocks.excludeFromCull) {
+            BlockRenderLayerMap.INSTANCE.putBlock(block, RenderLayer.getCutout());
         }
 
 
