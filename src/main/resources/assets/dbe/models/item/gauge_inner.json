@@ -1,5 +1,5 @@
 {
-  "parent": "dbe:block/black_gilded_boiler",
+  "parent": "dbe:block/gauge_inner",
   "display": {
     "thirdperson": {
       "rotation": [

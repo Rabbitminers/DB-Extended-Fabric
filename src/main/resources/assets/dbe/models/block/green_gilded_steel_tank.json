@@ -3,10 +3,10 @@
   "textures": {
     "down": "dbe:blocks/green_steel_boiler_top",
     "up": "dbe:blocks/green_steel_boiler_top",
-    "north": "dbe:blocks/gilded_green_steel_boiler",
-    "east": "dbe:blocks/gilded_green_steel_boiler",
-    "south": "dbe:blocks/gilded_green_steel_boiler",
-    "west": "dbe:blocks/gilded_green_steel_boiler",
+    "north": "dbe:blocks/guilded_green_steel_boiler",
+    "east": "dbe:blocks/guilded_green_steel_boiler",
+    "south": "dbe:blocks/guilded_green_steel_boiler",
+    "west": "dbe:blocks/guilded_green_steel_boiler",
     "particle": "dbe:blocks/green_steel_boiler_top"
   }
 }

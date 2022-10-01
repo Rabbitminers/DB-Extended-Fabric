@@ -1,0 +1,9 @@
+{
+  "parent": "dbe:custom/gauge_outer",
+  "textures": {
+    "all": "dbe:blocks/boiler_gauge",
+    "particle": "dbe:blocks/boiler_gauge",
+    "0": "dbe:blocks/boiler_gauge",
+    "missing": "dbe:blocks/boiler_gauge"
+  }
+}

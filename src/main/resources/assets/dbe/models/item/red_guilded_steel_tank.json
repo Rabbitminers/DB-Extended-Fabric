@@ -1,5 +1,5 @@
 {
-  "parent": "dbe:block/red_gilded_boiler",
+  "parent": "dbe:block/red_guilded_steel_tank",
   "display": {
     "thirdperson": {
       "rotation": [

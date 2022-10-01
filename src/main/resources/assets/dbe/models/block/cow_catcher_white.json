@@ -1,0 +1,8 @@
+{
+  "parent": "dbe:custom/cowcatcher",
+  "textures": {
+    "all": "dbe:blocks/white_steel",
+    "particle": "dbe:blocks/white_steel",
+    "0": "dbe:blocks/white_steel"
+  }
+}

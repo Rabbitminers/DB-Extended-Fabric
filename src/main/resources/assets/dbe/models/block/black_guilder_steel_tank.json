@@ -3,10 +3,10 @@
   "textures": {
     "down": "dbe:blocks/black_tank_top",
     "up": "dbe:blocks/black_tank_top",
-    "north": "dbe:blocks/gilded_black_tank",
-    "east": "dbe:blocks/gilded_black_tank",
-    "south": "dbe:blocks/gilded_black_tank",
-    "west": "dbe:blocks/gilded_black_tank",
+    "north": "dbe:blocks/guilded_black_tank",
+    "east": "dbe:blocks/guilded_black_tank",
+    "south": "dbe:blocks/guilded_black_tank",
+    "west": "dbe:blocks/guilded_black_tank",
     "particle": "dbe:blocks/black_tank_top"
   }
 }

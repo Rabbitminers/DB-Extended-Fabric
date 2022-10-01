@@ -1,15 +1,15 @@
 {
   "variants": {
     "axis=x": {
-      "model": "dbe:block/red_gilded_steel_tank",
+      "model": "dbe:block/red_guilded_steel_tank",
       "x": 90,
       "y": 90
     },
     "axis=y": {
-      "model": "dbe:block/red_gilded_steel_tank"
+      "model": "dbe:block/red_guilded_steel_tank"
     },
     "axis=z": {
-      "model": "dbe:block/red_gilded_steel_tank",
+      "model": "dbe:block/red_guilded_steel_tank",
       "x": 90
     }
   }

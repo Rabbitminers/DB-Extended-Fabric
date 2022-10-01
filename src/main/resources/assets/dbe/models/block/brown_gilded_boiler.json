@@ -2,7 +2,7 @@
   "parent": "dbe:custom/boiler",
   "textures": {
     "all": "dbe:blocks/brown_boiler",
-    "particle": "dbe:blocks/polished_andesite",
-    "cover": "dbe:blocks/crushing_wheel"
+    "particle": "dbe:blocks/gilded_brown_steel_tank",
+    "cover": "dbe:blocks/brown_boiler"
   }
 }
