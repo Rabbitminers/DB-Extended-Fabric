@@ -10,7 +10,7 @@
       "item": "minecraft:red_dye"
     },
     "4": {
-      "tag": "forge:ingots/steel"
+      "item": "dbe:steel_ingot"
     },
     "6": {
       "item": "minecraft:red_dye"

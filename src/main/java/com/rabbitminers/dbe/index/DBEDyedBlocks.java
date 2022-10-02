@@ -28,7 +28,7 @@ public class DBEDyedBlocks {
         for (String material: materials) {
             excludeFromCull.add(registerBlock(material+"_boiler",
                     new BoilerBlock(FabricBlockSettings.of(Material.METAL)
-                            .strength(3f, 6f)
+                            .strength(1.4f, 6f)
                             .nonOpaque()
                             .requiresTool()), group));
         }
@@ -36,80 +36,111 @@ public class DBEDyedBlocks {
         for (String colour: colours) {
             excludeFromCull.add(registerBlock(colour+"_boiler",
                     new BoilerBlock(FabricBlockSettings.of(Material.METAL)
-                            .strength(3f, 6f)
+                            .strength(1.4f, 6f)
                             .nonOpaque()
                             .requiresTool()), group));
 
             if (Objects.equals(colour, "black") || Objects.equals(colour, "red")) {
                 excludeFromCull.add(registerBlock(colour + "_guilded_boiler",
                         new BoilerBlock(FabricBlockSettings.of(Material.METAL)
-                                .strength(3f, 6f)
+                                .strength(1.4f, 6f)
                                 .nonOpaque()
                                 .requiresTool()), group));
 
+                registerBlock(colour + "_steel_tank",
+                        new PillarBlock(FabricBlockSettings.of(Material.METAL)
+                                .strength(1.4f, 6f)
+                                .nonOpaque()
+                                .requiresTool()), group);
+                if (Objects.equals(colour, "black")) {
+                    registerBlock(colour + "_guilder_steel_tank",
+                            new PillarBlock(FabricBlockSettings.of(Material.METAL)
+                                    .strength(1.4f, 6f)
+                                    .nonOpaque()
+                                    .requiresTool()), group);
+                } else {
+                    registerBlock(colour + "_guilded_steel_tank",
+                            new PillarBlock(FabricBlockSettings.of(Material.METAL)
+                                    .strength(1.4f, 6f)
+                                    .nonOpaque()
+                                    .requiresTool()), group);
+                }
+
                 Block LAST_USED = registerBlock(colour + "_steel_plating",
                         new Block(FabricBlockSettings.of(Material.METAL)
-                                .strength(3f, 6f)
+                                .strength(1.4f, 6f)
                                 .nonOpaque()
                                 .requiresTool()), group);
 
                 registerBlock(colour + "_steel_stairs",
                         new DBEStairs(LAST_USED.getDefaultState(), FabricBlockSettings.of(Material.METAL)
-                                .strength(3f, 6f)
+                                .strength(1.4f, 6f)
                                 .nonOpaque()
                                 .requiresTool()), group);
 
                 registerBlock(colour + "_steel_slab",
                         new SlabBlock(FabricBlockSettings.of(Material.METAL)
-                                .strength(3f, 6f)
+                                .strength(1.4f, 6f)
                                 .nonOpaque()
                                 .requiresTool()), group);
 
                 registerBlock(colour + "_steel_trapdoor",
                         new TrapdoorBlock(FabricBlockSettings.of(Material.METAL)
-                                .strength(3f, 6f)
+                                .strength(1.4f, 6f)
                                 .nonOpaque()
                                 .requiresTool()), group);
 
                 registerBlock(colour + "_steel_wall",
                         new WallBlock(FabricBlockSettings.of(Material.METAL)
-                                .strength(3f, 6f)
+                                .strength(1.4f, 6f)
                                 .nonOpaque()
                                 .requiresTool()), group);
             } else {
                 excludeFromCull.add(registerBlock(colour+"_gilded_boiler",
                         new BoilerBlock(FabricBlockSettings.of(Material.METAL)
-                                .strength(3f, 6f)
+                                .strength(1.4f, 6f)
                                 .nonOpaque()
                                 .requiresTool()), group));
 
+                registerBlock(colour + "_steel_tank",
+                        new PillarBlock(FabricBlockSettings.of(Material.METAL)
+                                .strength(1.4f, 6f)
+                                .nonOpaque()
+                                .requiresTool()), group);
+
+                registerBlock(colour + "_gilded_steel_tank",
+                        new PillarBlock(FabricBlockSettings.of(Material.METAL)
+                                .strength(1.4f, 6f)
+                                .nonOpaque()
+                                .requiresTool()), group);
+
                 Block LAST_USED = registerBlock(colour + "_steel_plating",
                         new Block(FabricBlockSettings.of(Material.METAL)
-                                .strength(3f, 6f)
+                                .strength(1.4f, 6f)
                                 .nonOpaque()
                                 .requiresTool()), group);
 
                 registerBlock(colour + "_steel_stairs",
                         new DBEStairs(LAST_USED.getDefaultState(), FabricBlockSettings.of(Material.METAL)
-                                .strength(3f, 6f)
+                                .strength(1.4f, 6f)
                                 .nonOpaque()
                                 .requiresTool()), group);
 
                 registerBlock(colour + "_steel_slab",
                         new SlabBlock(FabricBlockSettings.of(Material.METAL)
-                                .strength(3f, 6f)
+                                .strength(1.4f, 6f)
                                 .nonOpaque()
                                 .requiresTool()), group);
 
                 registerBlock(colour + "_steel_trapdoor",
                         new TrapdoorBlock(FabricBlockSettings.of(Material.METAL)
-                                .strength(3f, 6f)
+                                .strength(1.4f, 6f)
                                 .nonOpaque()
                                 .requiresTool()), group);
 
                 registerBlock(colour + "_steel_wall",
                         new WallBlock(FabricBlockSettings.of(Material.METAL)
-                                .strength(3f, 6f)
+                                .strength(1.4f, 6f)
                                 .nonOpaque()
                                 .requiresTool()), group);
             }

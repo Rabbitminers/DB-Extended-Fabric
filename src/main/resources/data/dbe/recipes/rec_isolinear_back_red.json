@@ -11,7 +11,7 @@
       "item": "minecraft:red_stained_glass_pane"
     },
     "2": {
-      "tag": "forge:ingots/steel"
+      "item": "dbe:steel_ingot"
     }
   },
   "result": {

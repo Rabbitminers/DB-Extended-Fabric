@@ -1,7 +1,10 @@
 {
   "replace": false,
   "values": [
-    "davebuildingmod:ballast",
-    "davebuildingmod:ballast_slab"
+    "dbe:ballast",
+    "dbe:ballast_slab",
+    "dbe:dirt_slab",
+    "dbe:gravel_slab",
+    "dbe:rocky_dirt"
   ]
 }

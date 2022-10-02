@@ -7,19 +7,19 @@
   ],
   "key": {
     "1": {
-      "tag": "forge:ingots/steel"
+      "item": "dbe:steel_ingot"
     },
     "3": {
-      "tag": "forge:ingots/steel"
+      "item": "dbe:steel_ingot"
     },
     "4": {
       "item": "minecraft:glass"
     },
     "5": {
-      "tag": "forge:ingots/steel"
+      "item": "dbe:steel_ingot"
     },
     "7": {
-      "tag": "forge:ingots/steel"
+      "item": "dbe:steel_ingot"
     }
   },
   "result": {

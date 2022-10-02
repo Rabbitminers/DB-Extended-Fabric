@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "dbe:full_log_pile",
+    "dbe:log_palisade",
+    "dbe:log_pile_1_top",
+    "dbe:log_pile_2_top",
+    "dbe:log_pile_1_bottom",
+    "dbe:log_pile_2_bottom"
+  ]
+}

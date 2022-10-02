@@ -10,7 +10,7 @@
       "item": "minecraft:arrow"
     },
     "1": {
-      "tag": "forge:ingots/steel"
+      "item": "dbe:steel_ingot"
     },
     "2": {
       "item": "minecraft:yellow_dye"

@@ -10,11 +10,13 @@ import net.minecraft.util.registry.Registry;
 public class DBEItems {
     public static final Item STEEL_INGOT = registerItem("steel_ingot",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+
+    public static final Item BASIC_CIRCUIT = registerItem("basic_circuit",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(DBE.MODID, name), item);
     }
     public static void registerModItems() {
         DBE.LOGGER.info("Registering items for " + DBE.MODID);
     }
-
 }

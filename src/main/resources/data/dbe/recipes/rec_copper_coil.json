@@ -7,31 +7,31 @@
   ],
   "key": {
     "0": {
-      "tag": "forge:ingots/copper"
+      "tag": "c:steel_ingot"
     },
     "1": {
-      "tag": "forge:ingots/copper"
+      "tag": "c:steel_ingot"
     },
     "2": {
-      "tag": "forge:ingots/copper"
+      "tag": "c:steel_ingot"
     },
     "3": {
-      "tag": "forge:ingots/copper"
+      "tag": "c:steel_ingot"
     },
     "4": {
       "item": "minecraft:iron_ingot"
     },
     "5": {
-      "tag": "forge:ingots/copper"
+      "tag": "c:steel_ingot"
     },
     "6": {
-      "tag": "forge:ingots/copper"
+      "tag": "c:steel_ingot"
     },
     "7": {
-      "tag": "forge:ingots/copper"
+      "tag": "c:steel_ingot"
     },
     "8": {
-      "tag": "forge:ingots/copper"
+      "tag": "c:steel_ingot"
     }
   },
   "result": {

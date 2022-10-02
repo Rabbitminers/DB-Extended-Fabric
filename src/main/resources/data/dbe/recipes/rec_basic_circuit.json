@@ -5,7 +5,7 @@
       "item": "minecraft:redstone"
     },
     {
-      "tag": "forge:ingots/steel"
+      "item": "dbe:steel_ingot"
     },
     {
       "item": "minecraft:lime_dye"
