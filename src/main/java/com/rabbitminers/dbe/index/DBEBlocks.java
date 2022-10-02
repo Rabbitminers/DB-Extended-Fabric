@@ -14,6 +14,71 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class DBEBlocks {
+    /*
+    'Natural' Blocks
+     */
+
+    public static final Block BALLAST = registerBlock("ballast",
+            new FacingBlock(FabricBlockSettings.of(Material.STONE).strength(3f, 6f)), ItemGroup.MISC);
+
+    public static final Block BALLAST_SLAB = registerBlock("ballast_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(3f, 6f)), ItemGroup.MISC);
+
+    public static final Block GRAVEL_SLAB = registerBlock("gravel_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.SOIL).strength(3f, 6f)), ItemGroup.MISC);
+
+    public static final Block ROCKY_DIRT = registerBlock("rocky_dirt",
+            new FacingBlock(FabricBlockSettings.of(Material.STONE).strength(3f, 6f)), ItemGroup.MISC);
+
+    public static final Block ROCKY_DIRT_SLAB = registerBlock("rocky_dirt_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.SOIL).strength(3f, 6f)), ItemGroup.MISC);
+
+    public static final Block DIRT_SLAB = registerBlock("dirt_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.SOIL).strength(3f, 6f)), ItemGroup.MISC);
+
+    /*
+    Lumber Blocks
+     */
+
+    public static final Block HALF_LUMBER_BORDER = registerBlock("half_lumber_border",
+            new FacingBlock(FabricBlockSettings.of(Material.STONE).strength(3f, 6f)), ItemGroup.MISC);
+
+
+    public static final Block HALF_LUMBER_VERTICAL = registerBlock("half_lumber_vertical",
+            new FacingBlock(FabricBlockSettings.of(Material.STONE).strength(3f, 6f)), ItemGroup.MISC);
+
+
+    public static final Block HALF_LUMBER_HORIZONTAL = registerBlock("half_lumber_horizontal",
+            new FacingBlock(FabricBlockSettings.of(Material.STONE).strength(3f, 6f)), ItemGroup.MISC);
+
+
+    public static final Block HALF_LUMBER_DIAGONAL_LEFT = registerBlock("half_lumber_diagonal_left",
+            new FacingBlock(FabricBlockSettings.of(Material.STONE).strength(3f, 6f)), ItemGroup.MISC);
+
+
+    public static final Block HALF_LUMBER_DIAGONAL_RIGHT = registerBlock("half_lumber_diagonal_right",
+            new FacingBlock(FabricBlockSettings.of(Material.STONE).strength(3f, 6f)), ItemGroup.MISC);
+
+
+    public static final Block HALF_LUMBER_BRICK_BORDER = registerBlock("half_lumber_brick_border",
+            new FacingBlock(FabricBlockSettings.of(Material.STONE).strength(3f, 6f)), ItemGroup.MISC);
+
+
+    public static final Block HALF_LUMBER_BRICK_VERTICAL = registerBlock("half_lumber_brick_vertical",
+            new FacingBlock(FabricBlockSettings.of(Material.STONE).strength(3f, 6f)), ItemGroup.MISC);
+
+
+    public static final Block HALF_LUMBER_BRICK_HORIZONTAL = registerBlock("half_lumber_brick_horizontal",
+            new FacingBlock(FabricBlockSettings.of(Material.STONE).strength(3f, 6f)), ItemGroup.MISC);
+
+
+    public static final Block HALF_LUMBER_BRICK_DIAGONAL_LEFT = registerBlock("half_lumber_brick_diagonal_left",
+            new FacingBlock(FabricBlockSettings.of(Material.STONE).strength(3f, 6f)), ItemGroup.MISC);
+
+
+    public static final Block HALF_LUMBER_BRICK_DIAGONAL_RIGHT = registerBlock("half_lumber_brick_diagonal_right",
+            new FacingBlock(FabricBlockSettings.of(Material.STONE).strength(3f, 6f)), ItemGroup.MISC);
+
 
     /*
     Log piles
@@ -126,6 +191,30 @@ public class DBEBlocks {
 
     public static final Block TRACK_END = registerBlock("track_end",
             new TrackEndBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool().nonOpaque()), ItemGroup.MISC);
+
+    public static final Block BOOKS_1 = registerBlock("book_1",
+            new TrackEndBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f, 0.8f).nonOpaque()), ItemGroup.MISC);
+
+    public static final Block BOOKS_2 = registerBlock("book_2",
+            new TrackEndBlock(FabricBlockSettings.of(Material.WOOL).strength(0.8f, 0.8f).nonOpaque()), ItemGroup.MISC);
+
+    public static final Block SKELETON_1 = registerBlock("skeleton_1",
+            new TrackEndBlock(FabricBlockSettings.of(Material.STONE).strength(3f, 3f).nonOpaque()), ItemGroup.MISC);
+
+    public static final Block SKELETON_2 = registerBlock("skeleton_2",
+            new TrackEndBlock(FabricBlockSettings.of(Material.STONE).strength(3f, 3f).nonOpaque()), ItemGroup.MISC);
+
+    public static final Block SKELETON_3 = registerBlock("skeleton_3",
+            new TrackEndBlock(FabricBlockSettings.of(Material.STONE).strength(3f, 3f).nonOpaque()), ItemGroup.MISC);
+
+    public static final Block SKELETON_4 = registerBlock("skeleton_4",
+            new TrackEndBlock(FabricBlockSettings.of(Material.STONE).strength(3f, 3f).nonOpaque()), ItemGroup.MISC);
+
+    public static final Block SKELETON_5 = registerBlock("skeleton_5",
+            new TrackEndBlock(FabricBlockSettings.of(Material.STONE).strength(3f, 3f).nonOpaque()), ItemGroup.MISC);
+
+    public static final Block SKELETON_6 = registerBlock("skeleton_6",
+            new TrackEndBlock(FabricBlockSettings.of(Material.STONE).strength(3f, 3f).nonOpaque()), ItemGroup.MISC);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
