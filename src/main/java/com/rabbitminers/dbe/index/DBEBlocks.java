@@ -100,6 +100,9 @@ public class DBEBlocks {
     Steel Blocks
      */
 
+    public static final Block TUNGSTEN_BLOCK = registerBlock("tungsten_carbite",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
     public static final Block STEEL_BLOCK = registerBlock("steel_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
 
@@ -122,6 +125,39 @@ public class DBEBlocks {
 
     public static final Block STEEL_SLAB = registerBlock("steel_slab",
             new SlabBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+    public static final Block STEEL_FRAME = registerBlock("steel_frame",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).nonOpaque().requiresTool()), ItemGroup.MISC);
+
+    public static final Block STEEL_WALL = registerBlock("steel_wall",
+            new WallBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
+    public static final Block STEEL_COLOUMN = registerBlock("steel_coloumn",
+            new WallBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
+    public static final Block STEEL_GIRDER = registerBlock("steel_girder",
+            new WallBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
+    public static final Block STEEL_DOOR = registerBlock("steel_door",
+            new DoorBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
+    public static final Block STEEL_TRAPDOOR = registerBlock("steel_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
+    public static final Block STEEL_MESH_TRAPDOOR = registerBlock("steel_mesh_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool().nonOpaque()), ItemGroup.MISC);
+
+    public static final Block VENT_STRAIGHT = registerBlock("vent_straight",
+            new FacingBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).nonOpaque().requiresTool()), ItemGroup.MISC);
+
+    public static final Block VENT_L_PIECE = registerBlock("vent_l",
+            new FacingBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).nonOpaque().requiresTool()), ItemGroup.MISC);
+
+    public static final Block VENT_L_PIECE_UP = registerBlock("vent_l_up",
+            new FacingBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).nonOpaque().requiresTool()), ItemGroup.MISC);
+
+    public static final Block VENT_L_PIECE_DOWN = registerBlock("vent_l_down",
+            new FacingBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).nonOpaque().requiresTool()), ItemGroup.MISC);
+
 
     /*
     Striped Blocks
@@ -155,6 +191,22 @@ public class DBEBlocks {
     /*
     Lab Blocks
      */
+    public static final Block PILLAR_BLOCK = registerBlock("copper_coil",
+            new PillarBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
+    public static final Block COMPUTER = registerBlock("pc_setup",
+            new FacingBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).nonOpaque().requiresTool()), ItemGroup.MISC);
+
+    public static final Block SERVER_RACK = registerBlock("server_rack",
+            new FacingBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
+    public static final Block COMPUTER_TERMINAL_STEEL = registerBlock("computer_terminal_steel",
+            new FacingBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
+    public static final Block COMPUTER_TERMINAL = registerBlock("computer_terminal",
+            new FacingBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
+
+
     public static final Block LABORATORY_BLOCK = registerBlock("laboratory_block",
             new FacingBlock(FabricBlockSettings.of(Material.METAL).strength(3f, 6f).requiresTool()), ItemGroup.MISC);
 
@@ -215,6 +267,28 @@ public class DBEBlocks {
 
     public static final Block SKELETON_6 = registerBlock("skeleton_6",
             new TrackEndBlock(FabricBlockSettings.of(Material.STONE).strength(3f, 3f).nonOpaque()), ItemGroup.MISC);
+
+
+    public static final Block REINFORCED_GLASS = registerBlock("reinforced_glass",
+            new Block(FabricBlockSettings.of(Material.GLASS).strength(15f, 1200f).nonOpaque()), ItemGroup.MISC);
+    public static final Block ONEWAY_STONE = registerBlock("oneway_stone",
+            new FacingBlock(FabricBlockSettings.of(Material.GLASS).strength(3f, 3f).nonOpaque()), ItemGroup.MISC);
+
+    public static final Block ONEWAY_LAB_STONE = registerBlock("oneway_laboratory_block",
+            new FacingBlock(FabricBlockSettings.of(Material.GLASS).strength(3f, 3f).nonOpaque()), ItemGroup.MISC);
+
+    public static final Block VANTA_BLACK = registerBlock("vanta_black",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(6f, 3f).nonOpaque()), ItemGroup.MISC);
+
+    public static final Block GREEN_SCREEN = registerBlock("green_screen",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(6f, 3f).nonOpaque()), ItemGroup.MISC);
+
+    public static final Block BLUE_SCREEN = registerBlock("blue_screen",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(6f, 3f).nonOpaque()), ItemGroup.MISC);
+
+    public static final Block RUBBER_DUCK = registerBlock("rubber_duck",
+            new Block(FabricBlockSettings.of(Material.WOOL).strength(2f, 3f).nonOpaque()), ItemGroup.MISC);
+
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {

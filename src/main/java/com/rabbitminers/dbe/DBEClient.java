@@ -22,5 +22,21 @@ public class DBEClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(DBEBlocks.LOG_PILE_BOTTOM_2, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(DBEBlocks.LOG_PALISADE, RenderLayer.getCutout());
 
+        BlockRenderLayerMap.INSTANCE.putBlock(DBEBlocks.STEEL_DOOR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(DBEBlocks.STEEL_MESH_TRAPDOOR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(DBEBlocks.STEEL_GIRDER, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(DBEBlocks.STEEL_FRAME, RenderLayer.getCutout());
+
+        BlockRenderLayerMap.INSTANCE.putBlock(DBEBlocks.ONEWAY_STONE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(DBEBlocks.ONEWAY_LAB_STONE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(DBEBlocks.REINFORCED_GLASS, RenderLayer.getCutout());
+
+        BlockRenderLayerMap.INSTANCE.putBlock(DBEBlocks.SKELETON_1, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(DBEBlocks.SKELETON_2, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(DBEBlocks.SKELETON_3, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(DBEBlocks.SKELETON_4, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(DBEBlocks.SKELETON_5, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(DBEBlocks.SKELETON_6, RenderLayer.getCutout());
+
     }
 }
