@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dbe:steel_plating"
+    },
+    {
+      "item": "dbe:steel_plating"
+    },
+    {
+      "item": "dbe:steel_plating"
+    },
+    {
+      "item": "dbe:steel_plating"
+    },
+    {
+      "item": "minecraft:light_blue_dye"
+    },
+    {
+      "item": "dbe:steel_plating"
+    },
+    {
+      "item": "dbe:steel_plating"
+    },
+    {
+      "item": "dbe:steel_plating"
+    },
+    {
+      "item": "dbe:steel_plating"
+    }
+  ],
+  "result": {
+    "item": "dbe:light_blue_steel_plating",
+    "count": 8
+  }
+}

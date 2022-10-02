@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "dbe:steel_plating"
+  },
+  "addition": {
+    "item": "minecraft:magma_block"
+  },
+  "result": {
+    "item": "dbe:tungsten_carbite"
+  }
+}

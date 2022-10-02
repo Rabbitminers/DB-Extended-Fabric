@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "dbe:ballast"
+    },
+    "1": {
+      "item": "dbe:ballast"
+    },
+    "2": {
+      "item": "dbe:ballast"
+    }
+  },
+  "result": {
+    "item": "dbe:ballast_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "dbe:vent_straight"
+  },
+  "result": "dbe:vent_l_up"
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "dbe:white_steel_plating"
+    },
+    "3": {
+      "item": "dbe:white_steel_plating"
+    },
+    "4": {
+      "item": "dbe:white_steel_plating"
+    },
+    "6": {
+      "item": "dbe:white_steel_plating"
+    },
+    "7": {
+      "item": "dbe:white_steel_plating"
+    },
+    "8": {
+      "item": "dbe:white_steel_plating"
+    }
+  },
+  "result": {
+    "item": "dbe:white_steel_stairs",
+    "count": 4
+  }
+}

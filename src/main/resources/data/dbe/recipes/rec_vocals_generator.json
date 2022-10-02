@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "dbe:vocal_empty"
+    },
+    "1": {
+      "item": "minecraft:observer"
+    },
+    "2": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "dbe:vocals_generator",
+    "count": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "dbe:laboratory_block"
+    },
+    "1": {
+      "item": "dbe:laboratory_block"
+    },
+    "2": {
+      "item": "dbe:laboratory_block"
+    },
+    "3": {
+      "item": "dbe:laboratory_block"
+    }
+  },
+  "result": {
+    "item": "dbe:cut_laboratory_block",
+    "count": 4
+  }
+}

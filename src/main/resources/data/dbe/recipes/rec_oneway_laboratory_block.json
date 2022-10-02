@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "dbe:laboratory_block"
+    },
+    "1": {
+      "item": "dbe:laboratory_block"
+    },
+    "2": {
+      "item": "dbe:laboratory_block"
+    },
+    "3": {
+      "item": "minecraft:glass"
+    },
+    "4": {
+      "item": "minecraft:glass"
+    },
+    "5": {
+      "item": "minecraft:glass"
+    },
+    "6": {
+      "item": "dbe:laboratory_block"
+    },
+    "7": {
+      "item": "dbe:laboratory_block"
+    },
+    "8": {
+      "item": "dbe:laboratory_block"
+    }
+  },
+  "result": {
+    "item": "dbe:oneway_laboratory_block",
+    "count": 6
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "dbe:steel_tiles"
+    },
+    "4": {
+      "item": "dbe:steel_tiles"
+    },
+    "5": {
+      "item": "dbe:steel_tiles"
+    },
+    "6": {
+      "item": "dbe:steel_tiles"
+    },
+    "7": {
+      "item": "dbe:steel_tiles"
+    },
+    "8": {
+      "item": "dbe:steel_tiles"
+    }
+  },
+  "result": {
+    "item": "dbe:steel_stairs",
+    "count": 4
+  }
+}

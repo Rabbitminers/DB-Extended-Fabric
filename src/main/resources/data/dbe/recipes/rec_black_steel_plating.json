@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "dbe:steel_plating"
+    },
+    {
+      "item": "dbe:steel_plating"
+    },
+    {
+      "item": "dbe:steel_plating"
+    },
+    {
+      "item": "dbe:steel_plating"
+    },
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "item": "dbe:steel_plating"
+    },
+    {
+      "item": "dbe:steel_plating"
+    },
+    {
+      "item": "dbe:steel_plating"
+    },
+    {
+      "item": "dbe:steel_plating"
+    }
+  ],
+  "result": {
+    "item": "dbe:black_steel_plating",
+    "count": 8
+  }
+}

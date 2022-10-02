@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "dbe:yellow_steel_plating"
+    },
+    "1": {
+      "item": "dbe:yellow_steel_plating"
+    },
+    "2": {
+      "item": "dbe:yellow_steel_plating"
+    },
+    "3": {
+      "item": "dbe:yellow_steel_plating"
+    }
+  },
+  "result": {
+    "item": "dbe:yellow_steel_trapdoor",
+    "count": 2
+  }
+}

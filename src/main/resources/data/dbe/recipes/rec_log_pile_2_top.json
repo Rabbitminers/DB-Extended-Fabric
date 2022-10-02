@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "dbe:full_log_pile"
+  },
+  "result": "dbe:log_pile_2_top"
+}

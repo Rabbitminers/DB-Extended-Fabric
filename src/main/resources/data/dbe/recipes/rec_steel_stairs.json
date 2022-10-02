@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "dbe:pink_steel_plating"
+    },
+    "4": {
+      "item": "dbe:pink_steel_plating"
+    },
+    "5": {
+      "item": "dbe:pink_steel_plating"
+    },
+    "6": {
+      "item": "dbe:pink_steel_plating"
+    },
+    "7": {
+      "item": "dbe:pink_steel_plating"
+    },
+    "8": {
+      "item": "dbe:pink_steel_plating"
+    }
+  },
+  "result": {
+    "item": "dbe:pink_steel_stairs",
+    "count": 4
+  }
+}

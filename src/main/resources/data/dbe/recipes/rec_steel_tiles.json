@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "dbe:steel_plating"
+    },
+    "1": {
+      "item": "dbe:steel_plating"
+    },
+    "2": {
+      "item": "dbe:steel_plating"
+    },
+    "3": {
+      "item": "dbe:steel_plating"
+    }
+  },
+  "result": {
+    "item": "dbe:steel_tiles",
+    "count": 4
+  }
+}

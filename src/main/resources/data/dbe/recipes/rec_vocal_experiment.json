@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "dbe:vocal_empty"
+  },
+  "result": "dbe:vocal_experiment"
+}

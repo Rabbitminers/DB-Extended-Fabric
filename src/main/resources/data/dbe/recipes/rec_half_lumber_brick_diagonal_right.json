@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "dbe:half_lumber_brick_border"
+  },
+  "result": "dbe:half_lumber_brick_diagonal_right"
+}

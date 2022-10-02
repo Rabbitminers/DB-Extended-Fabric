@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glass_pane"
+    },
+    "1": {
+      "item": "dbe:basic_circuit"
+    },
+    "2": {
+      "item": "dbe:steel_plating"
+    }
+  },
+  "result": {
+    "item": "dbe:pc_setup",
+    "count": 1
+  }
+}
