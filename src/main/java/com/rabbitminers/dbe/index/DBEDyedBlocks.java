@@ -4,6 +4,7 @@ import com.rabbitminers.dbe.DBE;
 import com.rabbitminers.dbe.blocks.boilers.BoilerBlock;
 import com.rabbitminers.dbe.blocks.util.BottomSlab;
 import com.rabbitminers.dbe.blocks.util.DBEStairs;
+import com.rabbitminers.dbe.util.DBEItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -19,7 +20,7 @@ import java.util.Objects;
 
 public class DBEDyedBlocks {
 
-    static ItemGroup group = ItemGroup.MISC;
+    static ItemGroup group = DBEItemGroup.DBEGROUP;
     public static List<Block> excludeFromCull = new ArrayList<Block>();
     public static String[] colours = {"black", "gray", "light_gray", "white", "red", "orange", "yellow", "lime", "green", "cyan", "light_blue", "blue", "magenta", "purple", "pink", "brown"};
     public static String[] materials = {"create", "copper", "zinc", "brass"};

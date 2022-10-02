@@ -1,6 +1,7 @@
 package com.rabbitminers.dbe.blocks.boilers;
 
 import com.rabbitminers.dbe.DBE;
+import com.rabbitminers.dbe.util.DBEItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -14,7 +15,7 @@ import net.minecraft.util.registry.Registry;
 
 public class BoilerBlockRegistry {
 
-    static ItemGroup group = ItemGroup.MISC;
+    static ItemGroup group = DBEItemGroup.DBEGROUP;
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registry.BLOCK, new Identifier(DBE.MODID, name), block);
