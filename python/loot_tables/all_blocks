@@ -1,0 +1,348 @@
+	 LIGHTOFF = REGISTRY.register("lightoff", () -> new LightoffBlock());
+	 ALARM_LIGHTOFF = REGISTRY.register("alarm_lightoff", () -> new AlarmLightoffBlock());
+	 GREEN_LIGHT_OFF = REGISTRY.register("green_light_off", () -> new GreenLightOffBlock());
+	 BLUE_LIGHT_OFF = REGISTRY.register("blue_light_off", () -> new BlueLightOffBlock());
+	 SOUND_GENERATOR = REGISTRY.register("sound_generator", () -> new SoundGeneratorBlock());
+	 PARTICLE_GENERATOR = REGISTRY.register("particle_generator", () -> new ParticleGeneratorBlock());
+	 VOCALS_GENERATOR = REGISTRY.register("vocals_generator", () -> new VocalsGeneratorBlock());
+	 COPPER_COIL = REGISTRY.register("copper_coil", () -> new CopperCoilBlock());
+	 PC_SETUP = REGISTRY.register("pc_setup", () -> new PcSetupBlock());
+	 SERVER_RACK = REGISTRY.register("server_rack", () -> new ServerRackBlock());
+	 COMPUTER_TERMINAL_STEEL = REGISTRY.register("computer_terminal_steel",
+			() -> new ComputerTerminalSteelBlock());
+	 COMPUTER_TERMINAL = REGISTRY.register("computer_terminal", () -> new ComputerTerminalBlock());
+	 ISOLINEAR_FRONT_BLUE = REGISTRY.register("isolinear_front_blue", () -> new IsolinearFrontBlueBlock());
+	 ISOLINEAR_MIDDLE_BLUE = REGISTRY.register("isolinear_middle_blue",
+			() -> new IsolinearMiddleBlueBlock());
+	 ISOLINEAR_BACK_BLUE = REGISTRY.register("isolinear_back_blue", () -> new IsolinearBackBlueBlock());
+	 ISOLINEAR_FRONT_RED = REGISTRY.register("isolinear_front_red", () -> new IsolinearFrontRedBlock());
+	 ISOLINEAR_MIDDLE_RED = REGISTRY.register("isolinear_middle_red", () -> new IsolinearMiddleRedBlock());
+	 ISOLINEAR_BACK_RED = REGISTRY.register("isolinear_back_red", () -> new IsolinearBackRedBlock());
+	 ISOLINEAR_FRONT_GREEN = REGISTRY.register("isolinear_front_green",
+			() -> new IsolinearFrontGreenBlock());
+	 ISOLINEAR_MIDDLE_GREEN = REGISTRY.register("isolinear_middle_green",
+			() -> new IsolinearMiddleGreenBlock());
+	 ISOLINEAR_BACK_GREEN = REGISTRY.register("isolinear_back_green", () -> new IsolinearBackGreenBlock());
+	 LABORATORY_BLOCK = REGISTRY.register("laboratory_block", () -> new LaboratoryBlockBlock());
+	 CUT_LABORATORY_BLOCK = REGISTRY.register("cut_laboratory_block", () -> new CutLaboratoryBlockBlock());
+	 LABORATORY_VENT = REGISTRY.register("laboratory_vent", () -> new LaboratoryVentBlock());
+	 LABORATORY_PANEL = REGISTRY.register("laboratory_panel", () -> new LaboratoryPanelBlock());
+	 LABORATORY_STRIPE = REGISTRY.register("laboratory_stripe", () -> new LaboratoryStripeBlock());
+	 LABORATORY_ROMAN_1 = REGISTRY.register("laboratory_roman_1", () -> new LaboratoryRoman1Block());
+	 LABORATORY_LEFT_ARROW = REGISTRY.register("laboratory_left_arrow",
+			() -> new LaboratoryLeftArrowBlock());
+	 LABORATORY_RIGHT_ARROW = REGISTRY.register("laboratory_right_arrow",
+			() -> new LaboratoryRightArrowBlock());
+	 LABORATORY_ROMAN_5 = REGISTRY.register("laboratory_roman_5", () -> new LaboratoryRoman5Block());
+	 LABORATORY_ROMAN_10 = REGISTRY.register("laboratory_roman_10", () -> new LaboratoryRoman10Block());
+	 STRIPEDBLOCK = REGISTRY.register("stripedblock", () -> new StripedblockBlock());
+	 STRIPPEDBLOCK_HORIZONTAL = REGISTRY.register("strippedblock_horizontal",
+			() -> new StrippedblockHorizontalBlock());
+	 STRIPEDBLOCK_MIDDLE = REGISTRY.register("stripedblock_middle", () -> new StripedblockMiddleBlock());
+	 YELLOW_ARROW_LEFT = REGISTRY.register("yellow_arrow_left", () -> new YellowArrowLeftBlock());
+	 YELLOW_ARROW_RIGHT = REGISTRY.register("yellow_arrow_right", () -> new YellowArrowRightBlock());
+	 ALARM_BLOCK = REGISTRY.register("alarm_block", () -> new AlarmBlockBlock());
+	 RADIATION_BLOCK = REGISTRY.register("radiation_block", () -> new RadiationBlockBlock());
+	 BIOHAZARD_BLOCK = REGISTRY.register("biohazard_block", () -> new BiohazardBlockBlock());
+	 DEATH_BLOCK = REGISTRY.register("death_block", () -> new DeathBlockBlock());
+	 ELECTRICITY_BLOCK = REGISTRY.register("electricity_block", () -> new ElectricityBlockBlock());
+	 CROSS_BLOCK = REGISTRY.register("cross_block", () -> new CrossBlockBlock());
+	 EXIT_SIGN = REGISTRY.register("exit_sign", () -> new ExitSignBlock());
+	 TUNGSTEN_CARBITE = REGISTRY.register("tungsten_carbite", () -> new TungstenCarbiteBlock());
+	 STEEL_BLOCK = REGISTRY.register("steel_block", () -> new SteelBlockBlock());
+	 STEEL_PLATING = REGISTRY.register("steel_plating", () -> new SteelPlatingBlock());
+	 STEEL_PILLAR = REGISTRY.register("steel_pillar", () -> new SteelPillarBlock());
+	 STEEL_SEEMLESS = REGISTRY.register("steel_seemless", () -> new SteelSeemlessBlock());
+	 POLISHED_STEEL_PLATING = REGISTRY.register("polished_steel_plating",
+			() -> new PolishedSteelPlatingBlock());
+	 STEEL_TILES = REGISTRY.register("steel_tiles", () -> new SteelTilesBlock());
+	 STEEL_STAIRS = REGISTRY.register("steel_stairs", () -> new SteelStairsBlock());
+	 STEEL_SLAB = REGISTRY.register("steel_slab", () -> new SteelSlabBlock());
+	 STEEL_FRAME = REGISTRY.register("steel_frame", () -> new SteelFrameBlock());
+	 STEEL_WALL = REGISTRY.register("steel_wall", () -> new SteelWallBlock());
+	 STEEL_COLOUMN = REGISTRY.register("steel_coloumn", () -> new SteelColoumnBlock());
+	 STEEL_GIRDER = REGISTRY.register("steel_girder", () -> new SteelGirderBlock());
+	 STEEL_DOOR = REGISTRY.register("steel_door", () -> new SteelDoorBlock());
+	 STEEL_TRAPDOOR = REGISTRY.register("steel_trapdoor", () -> new SteelTrapdoorBlock());
+	 STEEL_MESH_TRAPDOOR = REGISTRY.register("steel_mesh_trapdoor", () -> new SteelMeshTrapdoorBlock());
+	 VENT_STRAIGHT = REGISTRY.register("vent_straight", () -> new VentStraightBlock());
+	 VENT_L = REGISTRY.register("vent_l", () -> new VentLBlock());
+	 VENT_L_UP = REGISTRY.register("vent_l_up", () -> new VentLUpBlock());
+	 VENT_L_DOWN = REGISTRY.register("vent_l_down", () -> new VentLDownBlock());
+	 CREATE_BOILER = REGISTRY.register("create_boiler", () -> new CreateBoilerBlock());
+	 COPPER_BOILER = REGISTRY.register("copper_boiler", () -> new CopperBoilerBlock());
+	 ZINC_BOILER = REGISTRY.register("zinc_boiler", () -> new ZincBoilerBlock());
+	 BRASS_BOILER = REGISTRY.register("brass_boiler", () -> new BrassBoilerBlock());
+	 WHITE_STEEL_PLATING = REGISTRY.register("white_steel_plating", () -> new WhiteSteelPlatingBlock());
+	 WHITE_STEEL_STAIRS = REGISTRY.register("white_steel_stairs", () -> new WhiteSteelStairsBlock());
+	 WHITE_STEEL_SLAB = REGISTRY.register("white_steel_slab", () -> new WhiteSteelSlabBlock());
+	 WHITE_STEEL_TRAPDOOR = REGISTRY.register("white_steel_trapdoor", () -> new WhiteSteelTrapdoorBlock());
+	 WHITE_STEEL_WALL = REGISTRY.register("white_steel_wall", () -> new WhiteSteelWallBlock());
+	 WHITE_STEEL_TANK = REGISTRY.register("white_steel_tank", () -> new WhiteSteelTankBlock());
+	 WHITE_GILDED_STEEL_TANK = REGISTRY.register("white_gilded_steel_tank",
+			() -> new WhiteGildedSteelTankBlock());
+	 WHITE_BOILER = REGISTRY.register("white_boiler", () -> new WhiteBoilerBlock());
+	 WHITE_GILDED_BOILER = REGISTRY.register("white_gilded_boiler", () -> new WhiteGildedBoilerBlock());
+	 ORANGE_STEEL_PLATING = REGISTRY.register("orange_steel_plating", () -> new OrangeSteelPlatingBlock());
+	 ORANGE_STEEL_STAIRS = REGISTRY.register("orange_steel_stairs", () -> new OrangeSteelStairsBlock());
+	 ORANGE_STEEL_SLAB = REGISTRY.register("orange_steel_slab", () -> new OrangeSteelSlabBlock());
+	 ORANGE_STEEL_TRAPDOOR = REGISTRY.register("orange_steel_trapdoor",
+			() -> new OrangeSteelTrapdoorBlock());
+	 ORANGE_STEEL_WALL = REGISTRY.register("orange_steel_wall", () -> new OrangeSteelWallBlock());
+	 ORANGE_STEEL_TANK = REGISTRY.register("orange_steel_tank", () -> new OrangeSteelTankBlock());
+	 ORANGE_GILDED_STEEL_TANK = REGISTRY.register("orange_gilded_steel_tank",
+			() -> new OrangeGildedSteelTankBlock());
+	 ORANGE_BOILER = REGISTRY.register("orange_boiler", () -> new OrangeBoilerBlock());
+	 ORANGE_GILDED_BOILER = REGISTRY.register("orange_gilded_boiler", () -> new OrangeGildedBoilerBlock());
+	 MAGENTA_STEEL_PLATING = REGISTRY.register("magenta_steel_plating",
+			() -> new MagentaSteelPlatingBlock());
+	 MAGENTA_STEEL_STAIRS = REGISTRY.register("magenta_steel_stairs", () -> new MagentaSteelStairsBlock());
+	 MAGENTA_STEEL_SLAB = REGISTRY.register("magenta_steel_slab", () -> new MagentaSteelSlabBlock());
+	 MAGENTA_STEEL_TRAPDOOR = REGISTRY.register("magenta_steel_trapdoor",
+			() -> new MagentaSteelTrapdoorBlock());
+	 MAGENTA_STEEL_WALL = REGISTRY.register("magenta_steel_wall", () -> new MagentaSteelWallBlock());
+	 MAGENTA_STEEL_TANK = REGISTRY.register("magenta_steel_tank", () -> new MagentaSteelTankBlock());
+	 MAGENTA_GILDED_STEEL_TANK = REGISTRY.register("magenta_gilded_steel_tank",
+			() -> new MagentaGildedSteelTankBlock());
+	 MAGENTA_BOILER = REGISTRY.register("magenta_boiler", () -> new MagentaBoilerBlock());
+	 MAGENTA_GILDED_BOILER = REGISTRY.register("magenta_gilded_boiler",
+			() -> new MagentaGildedBoilerBlock());
+	 LIGHT_BLUE_STEEL_PLATING = REGISTRY.register("light_blue_steel_plating",
+			() -> new LightBlueSteelPlatingBlock());
+	 LIGHT_BLUE_STEEL_STAIRS = REGISTRY.register("light_blue_steel_stairs",
+			() -> new LightBlueSteelStairsBlock());
+	 LIGHT_BLUE_STEEL_SLAB = REGISTRY.register("light_blue_steel_slab", () -> new LightBlueSteelSlabBlock());
+	 LIGHT_BLUE_STEEL_TRAPDOOR = REGISTRY.register("light_blue_steel_trapdoor",
+			() -> new LightBlueSteelTrapdoorBlock());
+	 LIGHT_BLUE_STEEL_WALL = REGISTRY.register("light_blue_steel_wall", () -> new LightBlueSteelWallBlock());
+	 LIGHT_BLUE_STEEL_TANK = REGISTRY.register("light_blue_steel_tank", () -> new LightBlueSteelTankBlock());
+	 LIGHT_BLUE_GILDED_STEEL_TANK = REGISTRY.register("light_blue_gilded_steel_tank",
+			() -> new LightBlueGildedSteelTankBlock());
+	 LIGHT_BLUE_BOILER = REGISTRY.register("light_blue_boiler", () -> new LightBlueBoilerBlock());
+	 LIGHT_BLUE_GILDED_BOILER = REGISTRY.register("light_blue_gilded_boiler",
+			() -> new LightBlueGildedBoilerBlock());
+	 YELLOW_STEEL_PLATING = REGISTRY.register("yellow_steel_plating", () -> new YellowSteelPlatingBlock());
+	 YELLOW_STEEL_STAIRS = REGISTRY.register("yellow_steel_stairs", () -> new YellowSteelStairsBlock());
+	 YELLOW_STEEL_SLAB = REGISTRY.register("yellow_steel_slab", () -> new YellowSteelSlabBlock());
+	 YELLOW_STEEL_TRAPDOOR = REGISTRY.register("yellow_steel_trapdoor",
+			() -> new YellowSteelTrapdoorBlock());
+	 YELLOW_STEEL_WALL = REGISTRY.register("yellow_steel_wall", () -> new YellowSteelWallBlock());
+	 YELLOW_STEEL_TANK = REGISTRY.register("yellow_steel_tank", () -> new YellowSteelTankBlock());
+	 YELLOW_GILDED_STEEL_TANK = REGISTRY.register("yellow_gilded_steel_tank",
+			() -> new YellowGildedSteelTankBlock());
+	 YELLOW_BOILER = REGISTRY.register("yellow_boiler", () -> new YellowBoilerBlock());
+	 YELLOW_GILDED_BOILER = REGISTRY.register("yellow_gilded_boiler", () -> new YellowGildedBoilerBlock());
+	 LIME_STEEL_PLATING = REGISTRY.register("lime_steel_plating", () -> new LimeSteelPlatingBlock());
+	 LIME_STEEL_STAIRS = REGISTRY.register("lime_steel_stairs", () -> new LimeSteelStairsBlock());
+	 LIME_STEEL_SLAB = REGISTRY.register("lime_steel_slab", () -> new LimeSteelSlabBlock());
+	 LIME_STEEL_TRAPDOOR = REGISTRY.register("lime_steel_trapdoor", () -> new LimeSteelTrapdoorBlock());
+	 LIME_STEEL_WALL = REGISTRY.register("lime_steel_wall", () -> new LimeSteelWallBlock());
+	 LIME_STEEL_TANK = REGISTRY.register("lime_steel_tank", () -> new LimeSteelTankBlock());
+	 LIME_GILDED_STEEL_TANK = REGISTRY.register("lime_gilded_steel_tank",
+			() -> new LimeGildedSteelTankBlock());
+	 LIME_BOILER = REGISTRY.register("lime_boiler", () -> new LimeBoilerBlock());
+	 LIME_GILDED_BOILER = REGISTRY.register("lime_gilded_boiler", () -> new LimeGildedBoilerBlock());
+	 PINK_STEEL_PLATING = REGISTRY.register("pink_steel_plating", () -> new PinkSteelPlatingBlock());
+	 PINK_STEEL_STAIRS = REGISTRY.register("pink_steel_stairs", () -> new PinkSteelStairsBlock());
+	 PINK_STEEL_SLAB = REGISTRY.register("pink_steel_slab", () -> new PinkSteelSlabBlock());
+	 PINK_STEEL_TRAPDOOR = REGISTRY.register("pink_steel_trapdoor", () -> new PinkSteelTrapdoorBlock());
+	 PINK_STEEL_WALL = REGISTRY.register("pink_steel_wall", () -> new PinkSteelWallBlock());
+	 PINK_STEEL_TANK = REGISTRY.register("pink_steel_tank", () -> new PinkSteelTankBlock());
+	 PINK_GILDED_STEEL_TANK = REGISTRY.register("pink_gilded_steel_tank",
+			() -> new PinkGildedSteelTankBlock());
+	 PINK_BOILER = REGISTRY.register("pink_boiler", () -> new PinkBoilerBlock());
+	 PINK_GILDED_BOILER = REGISTRY.register("pink_gilded_boiler", () -> new PinkGildedBoilerBlock());
+	 GRAY_STEEL_PLATING = REGISTRY.register("gray_steel_plating", () -> new GraySteelPlatingBlock());
+	 GRAY_STEEL_STAIRS = REGISTRY.register("gray_steel_stairs", () -> new GraySteelStairsBlock());
+	 GRAY_STEEL_SLAB = REGISTRY.register("gray_steel_slab", () -> new GraySteelSlabBlock());
+	 GRAY_STEEL_TRAPDOOR = REGISTRY.register("gray_steel_trapdoor", () -> new GraySteelTrapdoorBlock());
+	 GRAY_STEEL_WALL = REGISTRY.register("gray_steel_wall", () -> new GraySteelWallBlock());
+	 GRAY_STEEL_TANK = REGISTRY.register("gray_steel_tank", () -> new GraySteelTankBlock());
+	 GRAY_GILDED_STEEL_TANK = REGISTRY.register("gray_gilded_steel_tank",
+			() -> new GrayGildedSteelTankBlock());
+	 GRAY_BOILER = REGISTRY.register("gray_boiler", () -> new GrayBoilerBlock());
+	 GRAY_GILDED_BOILER = REGISTRY.register("gray_gilded_boiler", () -> new GrayGildedBoilerBlock());
+	 LIGHT_GRAY_STEEL_PLATING = REGISTRY.register("light_gray_steel_plating",
+			() -> new LightGraySteelPlatingBlock());
+	 LIGHT_GRAY_STEEL_STAIRS = REGISTRY.register("light_gray_steel_stairs",
+			() -> new LightGraySteelStairsBlock());
+	 LIGHT_GRAY_STEEL_SLAB = REGISTRY.register("light_gray_steel_slab", () -> new LightGraySteelSlabBlock());
+	 LIGHT_GRAY_STEEL_TRAPDOOR = REGISTRY.register("light_gray_steel_trapdoor",
+			() -> new LightGraySteelTrapdoorBlock());
+	 LIGHT_GRAY_STEEL_WALL = REGISTRY.register("light_gray_steel_wall", () -> new LightGraySteelWallBlock());
+	 LIGHT_GRAY_STEEL_TANK = REGISTRY.register("light_gray_steel_tank", () -> new LightGraySteelTankBlock());
+	 LIGHT_GRAY_GILDED_STEEL_TANK = REGISTRY.register("light_gray_gilded_steel_tank",
+			() -> new LightGrayGildedSteelTankBlock());
+	 LIGHT_GRAY_BOILER = REGISTRY.register("light_gray_boiler", () -> new LightGrayBoilerBlock());
+	 LIGHT_GRAY_GILDED_BOILER = REGISTRY.register("light_gray_gilded_boiler",
+			() -> new LightGrayGildedBoilerBlock());
+	 CYAN_STEEL_PLATING = REGISTRY.register("cyan_steel_plating", () -> new CyanSteelPlatingBlock());
+	 CYAN_STEEL_STAIRS = REGISTRY.register("cyan_steel_stairs", () -> new CyanSteelStairsBlock());
+	 CYAN_STEEL_SLAB = REGISTRY.register("cyan_steel_slab", () -> new CyanSteelSlabBlock());
+	 CYAN_STEEL_TRAPDOOR = REGISTRY.register("cyan_steel_trapdoor", () -> new CyanSteelTrapdoorBlock());
+	 CYAN_STEEL_WALL = REGISTRY.register("cyan_steel_wall", () -> new CyanSteelWallBlock());
+	 CYAN_STEEL_TANK = REGISTRY.register("cyan_steel_tank", () -> new CyanSteelTankBlock());
+	 CYAN_GILDED_STEEL_TANK = REGISTRY.register("cyan_gilded_steel_tank",
+			() -> new CyanGildedSteelTankBlock());
+	 CYAN_BOILER = REGISTRY.register("cyan_boiler", () -> new CyanBoilerBlock());
+	 CYAN_GILDED_BOILER = REGISTRY.register("cyan_gilded_boiler", () -> new CyanGildedBoilerBlock());
+	 PURPLE_STEEL_PLATING = REGISTRY.register("purple_steel_plating", () -> new PurpleSteelPlatingBlock());
+	 PURPLE_STEEL_STAIRS = REGISTRY.register("purple_steel_stairs", () -> new PurpleSteelStairsBlock());
+	 PURPLE_STEEL_SLAB = REGISTRY.register("purple_steel_slab", () -> new PurpleSteelSlabBlock());
+	 PURPLE_STEEL_TRAPDOOR = REGISTRY.register("purple_steel_trapdoor",
+			() -> new PurpleSteelTrapdoorBlock());
+	 PURPLE_STEEL_WALL = REGISTRY.register("purple_steel_wall", () -> new PurpleSteelWallBlock());
+	 PURPLE_STEEL_TANK = REGISTRY.register("purple_steel_tank", () -> new PurpleSteelTankBlock());
+	 PURPLE_GILDED_STEEL_TANK = REGISTRY.register("purple_gilded_steel_tank",
+			() -> new PurpleGildedSteelTankBlock());
+	 PURPLE_BOILER = REGISTRY.register("purple_boiler", () -> new PurpleBoilerBlock());
+	 PURPLE_GILDED_BOILER = REGISTRY.register("purple_gilded_boiler", () -> new PurpleGildedBoilerBlock());
+	 BLUE_STEEL_PLATING = REGISTRY.register("blue_steel_plating", () -> new BlueSteelPlatingBlock());
+	 BLUE_STEEL_STAIRS = REGISTRY.register("blue_steel_stairs", () -> new BlueSteelStairsBlock());
+	 BLUE_STEEL_SLAB = REGISTRY.register("blue_steel_slab", () -> new BlueSteelSlabBlock());
+	 BLUE_STEEL_TRAPDOOR = REGISTRY.register("blue_steel_trapdoor", () -> new BlueSteelTrapdoorBlock());
+	 BLUE_STEEL_WALL = REGISTRY.register("blue_steel_wall", () -> new BlueSteelWallBlock());
+	 BLUE_STEEL_TANK = REGISTRY.register("blue_steel_tank", () -> new BlueSteelTankBlock());
+	 BLUE_GILDED_STEEL_TANK = REGISTRY.register("blue_gilded_steel_tank",
+			() -> new BlueGildedSteelTankBlock());
+	 BLUE_BOILER = REGISTRY.register("blue_boiler", () -> new BlueBoilerBlock());
+	 BLUE_GILDED_BOILER = REGISTRY.register("blue_gilded_boiler", () -> new BlueGildedBoilerBlock());
+	 BROWN_STEEL_PLATING = REGISTRY.register("brown_steel_plating", () -> new BrownSteelPlatingBlock());
+	 BROWN_STEEL_STAIRS = REGISTRY.register("brown_steel_stairs", () -> new BrownSteelStairsBlock());
+	 BROWN_STEEL_SLAB = REGISTRY.register("brown_steel_slab", () -> new BrownSteelSlabBlock());
+	 BROWN_STEEL_TRAPDOOR = REGISTRY.register("brown_steel_trapdoor", () -> new BrownSteelTrapdoorBlock());
+	 BROWN_STEEL_WALL = REGISTRY.register("brown_steel_wall", () -> new BrownSteelWallBlock());
+	 BROWN_STEEL_TANK = REGISTRY.register("brown_steel_tank", () -> new BrownSteelTankBlock());
+	 BROWN_GILDED_STEEL_TANK = REGISTRY.register("brown_gilded_steel_tank",
+			() -> new BrownGildedSteelTankBlock());
+	 BROWN_BOILER = REGISTRY.register("brown_boiler", () -> new BrownBoilerBlock());
+	 BROWN_GILDED_BOILER = REGISTRY.register("brown_gilded_boiler", () -> new BrownGildedBoilerBlock());
+	 GREEN_STEEL_PLATING = REGISTRY.register("green_steel_plating", () -> new GreenSteelPlatingBlock());
+	 GREEN_STEEL_STAIRS = REGISTRY.register("green_steel_stairs", () -> new GreenSteelStairsBlock());
+	 GREEN_STEEL_SLAB = REGISTRY.register("green_steel_slab", () -> new GreenSteelSlabBlock());
+	 GREEN_STEEL_TRAPDOOR = REGISTRY.register("green_steel_trapdoor", () -> new GreenSteelTrapdoorBlock());
+	 GREEN_STEEL_WALL = REGISTRY.register("green_steel_wall", () -> new GreenSteelWallBlock());
+	 GREEN_STEEL_TANK = REGISTRY.register("green_steel_tank", () -> new GreenSteelTankBlock());
+	 GREEN_GILDED_STEEL_TANK = REGISTRY.register("green_gilded_steel_tank",
+			() -> new GreenGildedSteelTankBlock());
+	 GREEN_BOILER = REGISTRY.register("green_boiler", () -> new GreenBoilerBlock());
+	 GREEN_GILDED_BOILER = REGISTRY.register("green_gilded_boiler", () -> new GreenGildedBoilerBlock());
+	 RED_STEEL_PLATING = REGISTRY.register("red_steel_plating", () -> new RedSteelPlatingBlock());
+	 RED_STEEL_STAIRS = REGISTRY.register("red_steel_stairs", () -> new RedSteelStairsBlock());
+	 RED_STEEL_SLAB = REGISTRY.register("red_steel_slab", () -> new RedSteelSlabBlock());
+	 RED_STEEL_TRAPDOOR = REGISTRY.register("red_steel_trapdoor", () -> new RedSteelTrapdoorBlock());
+	 RED_STEEL_WALL = REGISTRY.register("red_steel_wall", () -> new RedSteelWallBlock());
+	 RED_STEEL_TANK = REGISTRY.register("red_steel_tank", () -> new RedSteelTankBlock());
+	 RED_GUILDED_STEEL_TANK = REGISTRY.register("red_guilded_steel_tank",
+			() -> new RedGuildedSteelTankBlock());
+	 RED_BOILER = REGISTRY.register("red_boiler", () -> new RedBoilerBlock());
+	 RED_GUILDED_BOILER = REGISTRY.register("red_guilded_boiler", () -> new RedGuildedBoilerBlock());
+	 BLACK_STEEL_PLATING = REGISTRY.register("black_steel_plating", () -> new BlackSteelPlatingBlock());
+	 BLACK_STEEL_STAIRS = REGISTRY.register("black_steel_stairs", () -> new BlackSteelStairsBlock());
+	 BLACK_STEEL_SLAB = REGISTRY.register("black_steel_slab", () -> new BlackSteelSlabBlock());
+	 BLACK_STEEL_TRAPDOOR = REGISTRY.register("black_steel_trapdoor", () -> new BlackSteelTrapdoorBlock());
+	 BLACK_STEEL_WALL = REGISTRY.register("black_steel_wall", () -> new BlackSteelWallBlock());
+	 BLACK_STEEL_TANK = REGISTRY.register("black_steel_tank", () -> new BlackSteelTankBlock());
+	 BLACK_GUILDER_STEEL_TANK = REGISTRY.register("black_guilder_steel_tank",
+			() -> new BlackGuilderSteelTankBlock());
+	 BLACK_BOILER = REGISTRY.register("black_boiler", () -> new BlackBoilerBlock());
+	 BLACK_GUILDED_BOILER = REGISTRY.register("black_guilded_boiler", () -> new BlackGuildedBoilerBlock());
+	 TRACK_END = REGISTRY.register("track_end", () -> new TrackEndBlock());
+	 ALARM_SIGN = REGISTRY.register("alarm_sign", () -> new AlarmSignBlock());
+	 NO_ENTRY_SIGN = REGISTRY.register("no_entry_sign", () -> new NoEntrySignBlock());
+	 ONEWAY_SIGN = REGISTRY.register("oneway_sign", () -> new OnewaySignBlock());
+	 ARROW_UP_SIGN = REGISTRY.register("arrow_up_sign", () -> new ArrowUpSignBlock());
+	 ARROW_DOWN_SIGN = REGISTRY.register("arrow_down_sign", () -> new ArrowDownSignBlock());
+	 ARROW_LEFT_SIGN = REGISTRY.register("arrow_left_sign", () -> new ArrowLeftSignBlock());
+	 ARROW_RIGHT_SIGN = REGISTRY.register("arrow_right_sign", () -> new ArrowRightSignBlock());
+	 ARROW_RETURN_SIGN = REGISTRY.register("arrow_return_sign", () -> new ArrowReturnSignBlock());
+	 BALLAST = REGISTRY.register("ballast", () -> new BallastBlock());
+	 BALLAST_SLAB = REGISTRY.register("ballast_slab", () -> new BallastSlabBlock());
+	 GRAVEL_SLAB = REGISTRY.register("gravel_slab", () -> new GravelSlabBlock());
+	 ROCKY_DIRT = REGISTRY.register("rocky_dirt", () -> new RockyDirtBlock());
+	 ROCKY_DIRT_SLAB = REGISTRY.register("rocky_dirt_slab", () -> new RockyDirtSlabBlock());
+	 DIRT_SLAB = REGISTRY.register("dirt_slab", () -> new DirtSlabBlock());
+	 HALF_LUMBER_BORDER = REGISTRY.register("half_lumber_border", () -> new HalfLumberBorderBlock());
+	 HALF_LUMBER_HORIZONTAL = REGISTRY.register("half_lumber_horizontal",
+			() -> new HalfLumberHorizontalBlock());
+	 HALF_LUMBER_VERTICAL = REGISTRY.register("half_lumber_vertical", () -> new HalfLumberVerticalBlock());
+	 HALF_LUMBER_DIAGONAL_LEFT = REGISTRY.register("half_lumber_diagonal_left",
+			() -> new HalfLumberDiagonalLeftBlock());
+	 HALF_LUMBER_DIAGONAL_RIGHT = REGISTRY.register("half_lumber_diagonal_right",
+			() -> new HalfLumberDiagonalRightBlock());
+	 HALF_LUMBER_BRICK_BORDER = REGISTRY.register("half_lumber_brick_border",
+			() -> new HalfLumberBrickBorderBlock());
+	 HALF_LUMBER_BRICK_HORIZONTAL = REGISTRY.register("half_lumber_brick_horizontal",
+			() -> new HalfLumberBrickHorizontalBlock());
+	 HALF_LUMBER_BRICK_VERTICAL = REGISTRY.register("half_lumber_brick_vertical",
+			() -> new HalfLumberBrickVerticalBlock());
+	 HALF_LUMBER_BRICK_DIAGONAL_LEFT = REGISTRY.register("half_lumber_brick_diagonal_left",
+			() -> new HalfLumberBrickDiagonalLeftBlock());
+	 HALF_LUMBER_BRICK_DIAGONAL_RIGHT = REGISTRY.register("half_lumber_brick_diagonal_right",
+			() -> new HalfLumberBrickDiagonalRightBlock());
+	 FULL_LOG_PILE = REGISTRY.register("full_log_pile", () -> new FullLogPileBlock());
+	 LOG_PILE_1_TOP = REGISTRY.register("log_pile_1_top", () -> new LogPile1TopBlock());
+	 LOG_PILE_2_BOTTOM = REGISTRY.register("log_pile_2_bottom", () -> new LogPile2BottomBlock());
+	 LOG_PILE_2_TOP = REGISTRY.register("log_pile_2_top", () -> new LogPile2TopBlock());
+	 LOG_PILE_1_BOTTOM = REGISTRY.register("log_pile_1_bottom", () -> new LogPile1BottomBlock());
+	 LOG_PALISADE = REGISTRY.register("log_palisade", () -> new LogPalisadeBlock());
+	 LOG_PILE_CHAIR = REGISTRY.register("log_pile_chair", () -> new LogPileChairBlock());
+	 BOOK_1 = REGISTRY.register("book_1", () -> new Book1Block());
+	 BOOK_2 = REGISTRY.register("book_2", () -> new Book2Block());
+	 SKELETON_1 = REGISTRY.register("skeleton_1", () -> new Skeleton1Block());
+	 SKELETON_2 = REGISTRY.register("skeleton_2", () -> new Skeleton2Block());
+	 SKELETON_3 = REGISTRY.register("skeleton_3", () -> new Skeleton3Block());
+	 SKELETON_4 = REGISTRY.register("skeleton_4", () -> new Skeleton4Block());
+	 SKELETON_5 = REGISTRY.register("skeleton_5", () -> new Skeleton5Block());
+	 SKELETON_6 = REGISTRY.register("skeleton_6", () -> new Skeleton6Block());
+	 WHITE_QUILTED_WOOL = REGISTRY.register("white_quilted_wool", () -> new WhiteQuiltedWoolBlock());
+	 ORANGE_QUILTED_WOOL = REGISTRY.register("orange_quilted_wool", () -> new OrangeQuiltedWoolBlock());
+	 MAGENTA_QUILTED_WOOL = REGISTRY.register("magenta_quilted_wool", () -> new MagentaQuiltedWoolBlock());
+	 LIGHT_BLUE_QUILTED_WOOL = REGISTRY.register("light_blue_quilted_wool",
+			() -> new LightBlueQuiltedWoolBlock());
+	 YELLOW_QUILTED_WOOL = REGISTRY.register("yellow_quilted_wool", () -> new YellowQuiltedWoolBlock());
+	 LIME_QUILTED_WOOL = REGISTRY.register("lime_quilted_wool", () -> new LimeQuiltedWoolBlock());
+	 PINK_QUILTED_WOOL = REGISTRY.register("pink_quilted_wool", () -> new PinkQuiltedWoolBlock());
+	 GRAY_QUILTED_WOOL = REGISTRY.register("gray_quilted_wool", () -> new GrayQuiltedWoolBlock());
+	 LIGHT_GRAY_QUILTED_WOOL = REGISTRY.register("light_gray_quilted_wool",
+			() -> new LightGrayQuiltedWoolBlock());
+	 CYAN_QUILTED_WOOL = REGISTRY.register("cyan_quilted_wool", () -> new CyanQuiltedWoolBlock());
+	 PURPLE_QUILTED_WOOL = REGISTRY.register("purple_quilted_wool", () -> new PurpleQuiltedWoolBlock());
+	 BLUE_QUILTED_WOOL = REGISTRY.register("blue_quilted_wool", () -> new BlueQuiltedWoolBlock());
+	 BROWN_QUILTED_WOOL = REGISTRY.register("brown_quilted_wool", () -> new BrownQuiltedWoolBlock());
+	 GREEN_QUILTED_WOOL = REGISTRY.register("green_quilted_wool", () -> new GreenQuiltedWoolBlock());
+	 RED_QUILTED_WOOL = REGISTRY.register("red_quilted_wool", () -> new RedQuiltedWoolBlock());
+	 BLACK_QUILTED_WOOL = REGISTRY.register("black_quilted_wool", () -> new BlackQuiltedWoolBlock());
+	 WHITE_CHAIR = REGISTRY.register("white_chair", () -> new WhiteChairBlock());
+	 ORANGE_CHAIR = REGISTRY.register("orange_chair", () -> new OrangeChairBlock());
+	 MAGENTA_CHAIR = REGISTRY.register("magenta_chair", () -> new MagentaChairBlock());
+	 LIGHT_BLUE_CHAIR = REGISTRY.register("light_blue_chair", () -> new LightBlueChairBlock());
+	 YELLOW_CHAIR = REGISTRY.register("yellow_chair", () -> new YellowChairBlock());
+	 LIME_CHAIR = REGISTRY.register("lime_chair", () -> new LimeChairBlock());
+	 PINK_CHAIR = REGISTRY.register("pink_chair", () -> new PinkChairBlock());
+	 GRAY_CHAIR = REGISTRY.register("gray_chair", () -> new GrayChairBlock());
+	 LIGHT_GRAY_CHAIR = REGISTRY.register("light_gray_chair", () -> new LightGrayChairBlock());
+	 CYAN_CHAIR = REGISTRY.register("cyan_chair", () -> new CyanChairBlock());
+	 PURPLE_CHAIR = REGISTRY.register("purple_chair", () -> new PurpleChairBlock());
+	 BLUE_CHAIR = REGISTRY.register("blue_chair", () -> new BlueChairBlock());
+	 BROWN_CHAIR = REGISTRY.register("brown_chair", () -> new BrownChairBlock());
+	 GREEN_CHAIR = REGISTRY.register("green_chair", () -> new GreenChairBlock());
+	 RED_CHAIR = REGISTRY.register("red_chair", () -> new RedChairBlock());
+	 BLACK_CHAIR = REGISTRY.register("black_chair", () -> new BlackChairBlock());
+	 SOFT_AIR = REGISTRY.register("soft_air", () -> new SoftAirBlock());
+	 HARD_AIR = REGISTRY.register("hard_air", () -> new HardAirBlock());
+	 REINFORCED_GLASS = REGISTRY.register("reinforced_glass", () -> new ReinforcedGlassBlock());
+	 ONEWAY_STONE = REGISTRY.register("oneway_stone", () -> new OnewayStoneBlock());
+	 ONEWAY_LABORATORY_BLOCK = REGISTRY.register("oneway_laboratory_block",
+			() -> new OnewayLaboratoryBlockBlock());
+	 VANTA_BLACK = REGISTRY.register("vanta_black", () -> new VantaBlackBlock());
+	 GREEN_SCREEN = REGISTRY.register("green_screen", () -> new GreenScreenBlock());
+	 BLUE_SCREEN = REGISTRY.register("blue_screen", () -> new BlueScreenBlock());
+	 RUBBER_DUCK = REGISTRY.register("rubber_duck", () -> new RubberDuckBlock());
+	 LIGHTON = REGISTRY.register("lighton", () -> new LightonBlock());
+	 ALARM_LIGHTON = REGISTRY.register("alarm_lighton", () -> new AlarmLightonBlock());
+	 GREEN_LIGHT_ON = REGISTRY.register("green_light_on", () -> new GreenLightOnBlock());
+	 BLUE_LIGHT_ON = REGISTRY.register("blue_light_on", () -> new BlueLightOnBlock());
+	 PISS_ON = REGISTRY.register("piss_on", () -> new PissOnBlock());
+	 PISS_OFF = REGISTRY.register("piss_off", () -> new PissOffBlock());
+	 WHITE_TRAIN_LAMP = REGISTRY.register("white_train_lamp", () -> new WhiteTrainLampBlock());
